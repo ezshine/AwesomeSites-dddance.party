@@ -1,0 +1,251 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_unlit"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mesh_0",
+            "rotation" : [
+                0,
+                0,
+                -1,
+                -0.00021346015273593366
+            ],
+            "scale" : [
+                0.2314407229423523,
+                0.2314407229423523,
+                0.2314407229423523
+            ],
+            "translation" : [
+                -0.08061698824167252,
+                3.7006428241729736,
+                -0.010106474161148071
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Mesh_1",
+            "rotation" : [
+                0,
+                0,
+                -1,
+                -0.00021346015273593366
+            ],
+            "scale" : [
+                0.2314407229423523,
+                0.2314407229423523,
+                0.2314407229423523
+            ],
+            "translation" : [
+                2.1337242126464844,
+                4.182761192321777,
+                0.16804799437522888
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
+            "name" : "capusta_low_Material_u1_v1",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8711748123168945,
+                    0.8711748123168945,
+                    0.8711748123168945,
+                    1
+                ],
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "capusta_low_Material_u1_v1_baseColor",
+            "uri" : "capusta_low_Material_u1_v1_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 66276,
+            "max" : [
+                10.420154571533203,
+                15.982731819152832,
+                11.54041862487793
+            ],
+            "min" : [
+                -12.90229320526123,
+                -11.0765962600708,
+                -12.162041664123535
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 66276,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 66276,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 250731,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 10627,
+            "max" : [
+                14.336947441101074,
+                17.498477935791016,
+                10.271814346313477
+            ],
+            "min" : [
+                -3.72005558013916,
+                -8.878095626831055,
+                -12.845050811767578
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 10627,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 10627,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 25419,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 795312,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 795312,
+            "byteOffset" : 795312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 530208,
+            "byteOffset" : 1590624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1002924,
+            "byteOffset" : 2120832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127524,
+            "byteOffset" : 3123756
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127524,
+            "byteOffset" : 3251280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85016,
+            "byteOffset" : 3378804
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50838,
+            "byteOffset" : 3463820
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3514660,
+            "uri" : "scene.bin"
+        }
+    ]
+}

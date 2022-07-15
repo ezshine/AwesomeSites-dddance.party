@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>DDDANCE.PARTY</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+        <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes"> -->
+        <meta charset="utf-8">
+		<meta property="og:title" content="DDDANCE.PARTY">
+		<meta property="og:description" content="The internet's favorite party.">
+		<meta property="og:image" content="https://dddance.party/dddance_party_v2_cover.jpg">
+		<meta property="og:url" content="https://dddance.party">
+        <meta name="csrf-token" content="11be146d277551caf8d270674fb73898bec5b6687b7fb0537bb585137ad8f268">
+        <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap" rel="stylesheet">
+        <script src="lib/jquery-1.11.1.min.js"></script> <!-- js -->
+        <link rel="stylesheet" href="lib/nouislider_desktop.css"/> <!-- moved the edited css into style_desktop_view.css -->
+        <script src="lib/nouislider.js"></script> 
+        <link rel="stylesheet" href="css.css"/>
+    </head>
+	<body>
+
+
+        <!-- grad bgs -->
+        <div class="bg_grad_container">
+            <div class="bg_grad scene_grad01" id="scene_grad01_bg"></div>
+            <div class="bg_grad scene_grad02" id="scene_grad02_bg"></div>
+            <div class="bg_grad scene_grad03" id="scene_grad03_bg"></div>
+            <div class="bg_grad scene_grad04" id="scene_grad04_bg"></div>
+            <div class="bg_grad scene_grad05" id="scene_grad05_bg"></div>
+            <div class="bg_grad scene_grad06" id="scene_grad06_bg"></div>
+            <div class="bg_grad scene_grad07" id="scene_grad07_bg"></div>
+            <div class="bg_grad scene_grad08" id="scene_grad08_bg"></div>
+        </div>
+
+        <!-- overlays -->
+        <div class="blackout"></div>
+        <div class="strobe_overlay"></div>
+
+        <!-- library -->
+        <div class="library library_container"><div class="library_content"></div></div>
+        <div class="library library_header">
+            <div class="library_title">C R E A T I O N S</div>
+            <div class="library_close"><img src="img/close_x_white.png"  width="100%" height="100%"></div>
+        </div>
+
+        <!-- songs -->
+        <div class="songs">
+            <div class="songs_close"><img src="img/close_x_white.png"  width="100%" height="100%"></div>
+            <div class="songs_fit centerxy">
+                <div class="mute_button">M U T E</div>
+                <div class="songs_container"><!-- populated by JS --> </div>
+            </div>
+        </div>
+
+        <!-- about -->
+        <div class="about">
+            <div class="about_close"><img src="img/close_x_white.png" width="100%" height="100%"></div>
+            <div class="about_content centerxy">
+                    WELCOME TO 3D DANCE PARTY. 
+                    <div style="height:15px;"></div>
+                    DDDANCE.PARTY IS A NON-COMMERICAL <br>
+                    INTERNET ART PROJECT CREATED BY: <br>
+                    <a href="https://fuzzywobble.com" target="_blank">F U Z Z Y &nbsp; W O B B L E</a>
+                    <div style="height:15px;"></div>
+                    THIS EXPERIENCE IS BEST ON DESKTOP <br>
+                    BUT ALSO WORK ON MOBILE AND VR.
+            </div>
+        </div>
+
+        <!-- loading1 overlay (blackout) -->
+        <div class="loading1"><div class="rel">
+            <div class="loading_text centerxy pulser">L O A D I N G</div>
+        </div></div>
+        <!-- loading2 overlay (opacity) -->
+        <div class="loading2"><div class="rel">
+            <div class="loading_text centerxy pulser">L O A D I N G</div>
+        </div></div>
+        <div class="loading3"><div class="rel">
+            <div class="loading_text centerxy pulser">L O A D I N G</div>
+        </div></div>
+        <div class="loading3_blackout"></div>
+
+        <!-- message overlay -->
+        <div class="message"><div class="rel">
+            <div class="message_text centerxy pulser"><!-- set by JS --></div>         
+        </div></div>
+
+        <!-- thumbs library -->
+        <div class="library_thumbs_container"><div class="rel">
+            <div class="library_thumbs_header">
+                <!-- categories added by js -->
+                <div class="library_thumbs_container_close"><img src="img/close_x_white.png"  width="100%" height="100%"></div>
+            </div>
+            <div class="library_thumbs"><!-- all added by js --></div>
+        </div></div>
+
+        <!-- bottom buttons -->
+        <div class="ui_buttons centerx hide_for_vr hide_this_ui">
+            <div class="ui ui_button button_share" id="ui_library"><img src="img/creator_icon_library.jpg" width="100%" class="nopoint"></div>
+            <div class="ui ui_button button_share" id="ui_share"><img src="img/creator_icon_share2.jpg" width="100%" class="nopoint"></div>
+            <div class="ui ui_button button_music" id="ui_music"><img src="img/creator_icon_music3.jpg" width="100%" class="nopoint"></div>    
+            <div class="ui ui_button_big" id="ui_save">S A V E</div>
+            <div class="ui ui_button button_vr" id="ui_vr"><img src="img/creator_icon_vr2.jpg" width="100%" class="nopoint"></div>
+            <div class="ui ui_button button_fullscreen" id="ui_fullscreen"><img src="img/creator_icon_fullscreen2.jpg" width="100%" class="nopoint"></div>
+            <div class="ui ui_button button_about" id="ui_about"><img src="img/creator_icon_about2.jpg" width="100%" class="nopoint"></div>
+        </div>
+
+        <div class="ui_bgs centery EDITMODE hide_for_vr hide_this_ui"> 
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad01" id="scene_grad01"></div><div class="ui_bg_label" id="scene_grad01_label">G R A D 0 1</div><div style="clear:both;"></div></div> 
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad02" id="scene_grad02"></div><div class="ui_bg_label" id="scene_grad02_label">G R A D 0 2</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad03" id="scene_grad03"></div><div class="ui_bg_label" id="scene_grad03_label">G R A D 0 3</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad04" id="scene_grad04"></div><div class="ui_bg_label" id="scene_grad04_label">G R A D 0 4</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad05" id="scene_grad05"></div><div class="ui_bg_label" id="scene_grad05_label">G R A D 0 5</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad06" id="scene_grad06"></div><div class="ui_bg_label" id="scene_grad06_label">G R A D 0 6</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad07" id="scene_grad07"></div><div class="ui_bg_label" id="scene_grad07_label">G R A D 0 7</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_grad08" id="scene_grad08"></div><div class="ui_bg_label" id="scene_grad08_label">G R A D 0 8</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_skybox01" id="scene_skybox01"></div><div class="ui_bg_label" id="scene_skybox01_label">S K Y 0 1</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_skybox02" id="scene_skybox02"></div><div class="ui_bg_label" id="scene_skybox02_label">S K Y 0 2</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_skybox03" id="scene_skybox03"></div><div class="ui_bg_label" id="scene_skybox03_label">S K Y 0 3</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item scene_sky01" id="scene_sky01"></div><div class="ui_bg_label" id="scene_sky01_label">S K Y 0 4</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item solid_01" id="scene_white"></div><div class="ui_bg_label" id="scene_white_label">S O L I D 0 1</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item solid_02" id="scene_black"></div><div class="ui_bg_label" id="scene_black_label">S O L I D 0 2</div><div style="clear:both;"></div></div>
+            <div class="ui ui_bg ui_bg_row"><div class="ui_bg_item solid_03" id="scene_orange"></div><div class="ui_bg_label" id="scene_orange_label">S O L I D 0 3</div><div style="clear:both;"></div></div>
+        </div>
+
+        <div class="camera_loop_running pulser centerx"></div>
+
+        <!-- controls buttons desktop -->
+        <div class="controls_buttons centery EDITMODE hide_for_vr hide_this_ui">
+            <div class="ui ui_interact_button edit_mode_buttons" data-mode="look" id="interact_look">
+                <img src="img/icon_look2.png" width="15" height="15" style="margin-top:1px;"><br>L<br>O<br>O<br>K
+            </div>
+            <div class="ui ui_interact_button edit_mode_buttons" data-mode="move" id="interact_move">
+              <img src="img/icon_grab2.png" width="15" height="15"  style="margin-top:1px;"><br>G<br>R<br>A<br>B
+            </div>
+            <div class="ui ui_interact_button edit_mode_buttons ui_interact_button_active"  data-mode="both" id="interact_both">
+                <img src="img/icon_look2.png" width="15" height="15"  style="margin-top:3px;"><br>
+                <img src="img/icon_grab2.png" width="15" height="15"><br>B<br>O<br>T<br>H
+            </div>
+        </div>
+
+        <!-- controls buttons mobile -->
+        <div class="controls_buttons_mobile centery EDITMODE hide_for_vr">
+            <div class="ui ui_interact_mobile_button ui_interact_mobile_button_active edit_mode_buttons" data-mode="camera" id="interact_camera">
+                <img src="img/icon_look2.png" width="14" height="14" style="margin-top:1px;"><br>L<br>O<br>O<br>K
+            </div>
+            <div class="ui ui_interact_mobile_button edit_mode_buttons" data-mode="move" id="interact_move">
+              <img src="img/icon_grab2.png" width="14" height="14"  style="margin-top:1px;"><br>G<br>R<br>A<br>B
+            </div>
+        </div>
+
+        <!-- info: title/description -->
+        <div class="info_enter"><div class="rel">
+            <div class="info_close"><img src="img/close_x_white.png"  width="100%" height="100%"></div>
+            <div class="info_container centerxy">
+                <div class="info_thumbs">
+                    <img src="" class="info_thumb_img_top top_img_selected" id="info_thumb_img_top_0" data-num="0">
+                    <img src="" class="info_thumb_img_top" id="info_thumb_img_top_1" data-num="1">
+                    <img src="" class="info_thumb_img_top" id="info_thumb_img_top_2" data-num="2">
+                    <div style="clear:both;"></div>
+                </div>
+                <div style="height:4px;"></div>
+                <div class="info_thumb">
+                    <img src="" class="info_thumb_img" width="100%" height="100%">
+                </div>
+                <div class="info_sub">SELECT A THUMBNAIL</div>
+                <div style="height:15px;"></div>
+                <input type="text" id="share_title" class="info_input" placeholder="TITLE" maxlength="32" autocomplete="false" spellcheck="false" oninput="this.value = this.value.toUpperCase()">
+                <div class="info_sub">GIVE IT A TITLE</div>
+                <div style="height:15px;"></div>
+                <div class="save_button">SAVE</div>
+            </div>
+        </div></div>
+
+        <!-- saving overlay -->
+        <div class="saving"><div class="rel">
+            <div class="saving_text centerxy pulser">
+                SAVING
+            </div>
+        </div></div>
+
+        <!-- share overlay -->
+        <div class="share"><div class="rel">
+            <div class="share_close"><img src="img/close_x_white.png"  width="100%" height="100%"></div>
+            <div class="share_content centerxy">
+                T H I S &nbsp; C R E A T I O N
+                <div style="height:10px;"></div>
+                <input type="text" class="share_input" id="share_url"  readonly="true" value="http://fuzzywobble.com" onClick="this.setSelectionRange(0, this.value.length)">
+            </div>
+        </div></div>
+
+        <!-- header thumbs -->
+        <div class="header_thumbs_container centerx EDITMODE hide_for_vr hide_this_ui">
+            <div class="header_thumb" id="thumb0" data-idx="0"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+            <div class="header_thumb" id="thumb1" data-idx="1"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+            <div class="header_thumb" id="thumb2" data-idx="2"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+            <div class="header_thumb" id="thumb3" data-idx="3"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+            <div class="header_thumb" id="thumb4" data-idx="4"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+            <div class="header_thumb" id="thumb5" data-idx="5"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+            <div class="header_thumb" id="thumb6" data-idx="6"><img src="img/icon_plus3.png" width="100%" height="100%" style="opacity:0.85;"></div>
+        </div>
+
+        <!-- creator info -->
+        <div class="creator_info centerx VIEWMODE"></div>
+
+        <!-- datgui -->
+        <div id="my_datgui" class="ui hide_for_vr"></div>
+        <textarea class="admin_data"></textarea>
+
+        <!-- canvas -->
+        <canvas id="canvas_bg" class="centerxy"></canvas>
+        <canvas id="canvas_creator" class="centerxy"></canvas>
+
+        <!-- <div id="guess_what_container"><div class="rel">
+                Guess what? Many new dancers are coming in DECEMBER, 
+                along with new controls, jank, and rave modes.
+                <div id="guess_what_okay"> O K A Y ! </div>
+        </div></div> -->
+
+        <!-- slider container desktop -->
+        <div class="slider_container_desktop">
+
+            <div class="locked"><img src="img/icon_locked.png" width="100%" height="100%"></div>
+
+            <div class="slider_container_close" id="hide_ui1"><img src="img/close_x_white2.png"  style="pointer-events:none;" width="100%" height="100%"></div>
+            
+            <div class="sliders_desktop">
+
+                <div style="height:5px;"></div>
+                <div class="slider_icon"></div>
+                <div style="height:20px;"></div>
+
+                <div class="abutton" id="button_remove">
+                    <img src="img/creator_icon_remove.png" class="aicon">
+                    <div class="abutton_text">REMOVE</div>
+                </div>
+                <div class="abutton" id="button_swap">
+                    <img src="img/creator_icon_swap.png" class="aicon">
+                    <div class="abutton_text">SWAP</div>
+                </div>
+                <div class="abutton" id="button_clone">
+                    <img src="img/creator_icon_clone.png" class="aicon">
+                    <div class="abutton_text">CLONE</div>
+                </div>
+
+                <div style="clear:both;"></div>
+                <div style="height:30px;"></div>
+
+                <div class="abutton_tab abutton_tab_sel" id="button_basic">BASIC</div>
+                <div class="abutton_tab" id="button_weird">BODY</div>
+                <div class="abutton_tab" id="button_unreal">UNREAL</div>
+                <div class="abutton_tab" id="button_scene">SCENE</div>
+
+                <div style="clear:both;"></div>
+                <div style="height:10px;"></div>
+
+                <!-- basic-ui -->
+
+
+                <div class="slider aslider_rotation basic-ui">
+                    <div class="alabel">ROTATION</div><div class="aslider" id="slider_ry"></div>
+                </div>
+                <div class="slider aslider_scale basic-ui">
+                    <div class="alabel">SCALE</div><div class="aslider" id="slider_scale"></div>
+                </div>
+                <div class="slider aslider_speed basic-ui">
+                    <div class="alabel">SPEED</div><div class="aslider" id="slider_speed"></div>
+                </div>
+                <div class="slider aslider_trim basic-ui">
+                    <div class="alabel">TRIM</div><div class="aslider" id="slider_trim"></div>
+                </div>
+                <div class="slider aslider_positionx basic-ui">
+                    <div class="alabel">X POSITION</div><div class="aslider" id="slider_x"></div>
+                </div>
+                <div class="slider aslider_positionz basic-ui">
+                    <div class="alabel">Z POSITION</div><div class="aslider" id="slider_z"></div>
+                </div>
+                <div class="slider aslider_positiony basic-ui">
+                    <div class="alabel">VERTICAL POSITION</div><div class="aslider" id="slider_y"></div>
+                </div>
+                <div class="slider aslider_shine basic-ui">
+                    <div class="alabel">SHINE</div><div class="aslider" id="slider_shine"></div>
+                </div>
+                <div class="slider aslider_metal basic-ui">
+                    <div class="alabel">METALNESS</div><div class="aslider" id="slider_metal"></div>
+                </div>
+                <!-- <div class="slider aslider_color basic-ui is_disabled">
+                    <div class="alabel">HUE</div><div class="aslider is_disabled" id="slider_hue"></div>
+                </div> -->
+
+
+                <!-- scene-ui -->
+                <div class="slider aslider_brightness scene-ui">
+                    <div class="alabel">BRIGHTNESS</div><div class="aslider" id="slider_brightness"></div>
+                </div>
+                <div class="slider aslider_exposure scene-ui">
+                    <div class="alabel">EXPOSURE</div><div class="aslider" id="slider_exposure"></div>
+                </div>
+                <div class="danger_zone pulser scene-ui">SEIZURE WARNING</div>
+                <div class="slider aslider_strobe_intensity scene-ui">
+                    <div class="alabel">STROBE INTENSITY</div><div class="aslider" id="slider_strobe_intensity"></div>
+                </div>
+                <div class="slider aslider_strobe_speed scene-ui">
+                    <div class="alabel">STROBE SPEED [<span id="strobe_speed_val">0</span>bpm]</span></div><div class="aslider" id="slider_strobe_speed"></div>
+                </div>
+                <div class="danger_zone pulser scene-ui">SOLID BACKGROUNDS ONLY</div>
+                <div class="slider aslider_bg_color scene-ui">
+                    <div class="alabel">BACKGROUND-RGB <input id="input_bg_color_r" class="input_manual_num" value="255"><input id="input_bg_color_g" class="input_manual_num" value="255"><input id="input_bg_color_b" class="input_manual_num" value="255"></div>
+                    <div class="aslider-col" id="slider_bg_color_r"></div>
+                    <div class="aslider-col" id="slider_bg_color_g"></div>
+                    <div class="aslider-col" id="slider_bg_color_b"></div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="slider aslider_grid_color scene-ui">
+                    <div class="alabel">GRID-RGB <input id="input_grid_color_r" class="input_manual_num" value="255"><input id="input_grid_color_g" class="input_manual_num" value="255"><input id="input_grid_color_b" class="input_manual_num" value="255"></div>
+                    <div class="aslider-col" id="slider_grid_color_r"></div>
+                    <div class="aslider-col" id="slider_grid_color_g"></div>
+                    <div class="aslider-col" id="slider_grid_color_b"></div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="slider aslider_fog scene-ui">
+                    <div class="alabel">FOG</div><div class="aslider" id="slider_fog"></div>
+                </div>
+                <div class="danger_zone pulser scene-ui">CAMERA LOOP DISABLES INTERACTIONS</div>
+                <div class="slider aslider_camera_loop_time scene-ui">
+                    <div class="alabel">CAMERA LOOP TIME [<span id="camera_loop_time_val">0</span>s]</span></div><div class="aslider" id="slider_camera_loop_time"></div>
+                </div>
+                <div class="slider aslider_camera_loop_height scene-ui">
+                    <div class="alabel">CAMERA LOOP HEIGHT [<span id="camera_loop_height_val">0</span>m]</div><div class="aslider" id="slider_camera_loop_height"></div>
+                </div>
+                <div class="slider aslider_camera_loop_target_height scene-ui">
+                    <div class="alabel">CAMERA LOOP TARGET HEIGHT [<span id="camera_loop_target_height_val">0</span>m]</div><div class="aslider" id="slider_camera_loop_target_height"></div>
+                </div>
+                <div class="slider aslider_camera_loop_distance scene-ui">
+                    <div class="alabel">CAMERA LOOP DISTANCE [<span id="camera_loop_distance_val">0</span>m]</div><div class="aslider" id="slider_camera_loop_distance"></div>
+                </div>
+                <!-- weird-ui -->
+
+                <div class="slider weird-ui">
+                    <div class="alabel">HEAD</div><div class="aslider aslider_bonesize" id="slider_head_size"></div>
+                </div>
+                <div class="slider weird-ui">
+                    <div class="alabel">FEET</div><div class="aslider aslider_bonesize" id="slider_foot_size"></div>
+                </div>
+                <!-- <div class="slider weird-ui">
+                    <div class="alabel">STRETCH</div><div class="aslider" id="slider_stretch"></div>
+                </div> -->
+                <div class="slider weird-ui">
+                    <div class="alabel">MOSH BODY</div><div class="aslider aslider_mosh" id="slider_mosh_body"></div>
+                </div>
+                <div class="slider weird-ui">
+                    <div class="alabel">MOSH ARMS</div><div class="aslider aslider_mosh" id="slider_mosh_arms"></div>
+                </div>
+                <div class="slider weird-ui">
+                    <div class="alabel">MOSH NECK</div><div class="aslider aslider_mosh" id="slider_mosh_neck"></div>
+                </div>
+                <div class="slider weird-ui">
+                    <div class="alabel">MOSH SPEED</div><div class="aslider aslider_mosh" id="slider_mosh_speed"></div>
+                </div>
+                <div class="danger_zone pulser weird-ui">DANGER ZONE BELOW</div>
+                <select class="selector weird-ui is_disabled" name="sel_bone" id="sel_bones">
+                    <option value=""></option>
+                </select>
+                <div class="slider aslider_manual_bone_position weird-ui is_disabled">
+                    <div class="alabel">POSITION-XYZ</div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_x"></div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_y"></div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_z"></div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="slider aslider_manual_bone_rotation weird-ui is_disabled">
+                    <div class="alabel">ROTATION-XYZ</div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_rx"></div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_ry"></div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_rz"></div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="slider aslider_manual_bone_scale weird-ui is_disabled">
+                    <div class="alabel">SCALE-XYZ</div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_sx"></div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_sy"></div>
+                    <div class="aslider-col is_disabled" id="slider_manual_bone_sz"></div>
+                    <div style="clear:both;"></div>
+                </div>
+                <!-- <div class="sliders_button">R E S E T &nbsp; B O N E</div> -->
+
+                <!-- unreal-ui -->
+                <!-- <div class="danger_zone pulser unreal-ui">E X P E R I M E N T A L</div> -->
+                <div class="slider aslider_s_amp unreal-ui">
+                    <div class="alabel">DOSE</div><div class="aslider" id="slider_s_amp"></div>
+                </div>
+                <div class="slider aslider_s_speed unreal-ui">
+                    <div class="alabel">SPEED</div><div class="aslider" id="slider_s_speed"></div>
+                </div>
+                <div class="slider aslider_s_wavecount unreal-ui">
+                    <div class="alabel">WAVE COUNT</div><div class="aslider" id="slider_s_wavecount"></div>
+                </div>
+                <div style="height:10px;"></div>
+                <div class="vshader_mode_container unreal-ui">
+                    <div class="alabel">MODE</div>
+                    <div class="vshader_mode_sel vshader_mode_sel_l " data-mode="modulate">MODULATE</div><div class="vshader_mode_sel vshader_mode_sel_r vshader_mode_sel_active" data-axis="wave">WAVE</div>
+                </div>
+                <div style="height:0px;clear:both;">&nbsp;</div>
+                <div class="vshader_axis_sel_container unreal-ui">
+                    <div class="alabel">ALONG AXIS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EFFECT AXIS</div>
+                    <div class="vshader_axis_sel vshader_axis_sel_along" data-axis="x">X</div><div class="vshader_axis_sel vshader_axis_sel_effect" data-axis="x">X</div>
+                    <div class="vshader_axis_sel vshader_axis_sel_along vshader_axis_sel_active" data-axis="y">Y</div><div class="vshader_axis_sel vshader_axis_sel_effect" data-axis="y">Y</div>
+                    <div class="vshader_axis_sel vshader_axis_sel_along" data-axis="z">Z</div><div class="vshader_axis_sel vshader_axis_sel_effect vshader_axis_sel_active" data-axis="z">Z</div>
+                </div>
+                <div style="height:0px;clear:both;">&nbsp;</div>
+                <div class="danger_zone pulser unreal-ui">AXIS ARE INCONSISTENT ACROSS MODELS</div>
+                
+
+            </div>
+
+        </div>
+
+        <!-- slider container mobile -->
+        <div class="slider_container_mobile no_select centerx"><div class="rel">
+
+                <div class="slider_icon_mobile centerx"></div>
+
+                <div class="locked"><img src="img/icon_locked.png" width="100%" height="100%"></div>
+
+                <div class="slider_container_close_mobile" id="hide_ui_mobile">
+                    <img src="img/creator_close_x2.png"  width="100%" height="100%" class="nopoint">
+                </div>
+
+                <!-- pg1 buttons -->
+                <div class="slider_container_page centerxy" id="slider_pg1">
+                    <div class="abutton_container">
+                        <div class="abutton_mobile" id="button_remove">
+                            <img src="img/creator_icon_remove.png" class="aicon2">
+                            <div class="abutton_text">REMOVE</div>
+                        </div>
+                        <div class="abutton_mobile" id="button_swap">
+                            <img src="img/creator_icon_swap.png" class="aicon2">
+                            <div class="abutton_text">SWAP</div>
+                        </div>
+                        <div class="abutton_mobile" id="button_clone">
+                            <img src="img/creator_icon_clone.png" class="aicon2">
+                            <div class="abutton_text">CLONE</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- pg2 -->
+                <div class="slider_container_page centerxy" id="slider_pg2">
+                    <div class="slider_close aslider_positionx"> <div class="alabel">X POSITION</div><div class="aslider" id="slider_x"></div> </div>
+                    <div class="slider_close aslider_positiony"> <div class="alabel">Z POSITION</div><div class="aslider" id="slider_z"></div> </div>
+                    <div class="slider_close aslider_positionz"> <div class="alabel">VERTICAL POSITION</div><div class="aslider" id="slider_y"></div> </div>
+                </div>
+
+                <!-- pg3 -->
+                <div class="slider_container_page centerxy" id="slider_pg3">
+                    <div class="slider_close aslider_rotation"> <div class="alabel">ROTATION</div><div class="aslider" id="slider_ry"></div> </div>
+                    <div class="slider_close aslider_scale"> <div class="alabel">SCALE</div><div class="aslider" id="slider_scale"></div> </div>
+                    <div class="slider_close aslider_speed"> <div class="alabel">SPEED</div><div class="aslider" id="slider_speed"></div> </div>
+                    <div class="slider_close aslider_trim"> <div class="alabel">ANIMATION TRIM</div><div class="aslider" id="slider_trim"></div> </div>
+                </div>
+
+                <!-- pg4 -->
+                <div class="slider_container_page centerxy" id="slider_pg4">
+                    <div class="slider_close aslider_shine"> <div class="alabel">MATERIAL - SHINE</div><div class="aslider" id="slider_shine"></div> </div>
+                    <div class="slider_close aslider_metal"> <div class="alabel">MATERIAL - METAL</div><div class="aslider" id="slider_metal"></div> </div>           
+                </div>
+
+                <!-- pg5 -->
+                <div class="slider_container_page centerxy" id="slider_pg5">
+                    <div class="slider_close"><div class="alabel">MOSH BODY</div><div class="aslider aslider_mosh" id="slider_mosh_body"></div></div>
+                    <div class="slider_close"><div class="alabel">MOSH ARMS</div><div class="aslider aslider_mosh" id="slider_mosh_arms"></div></div>
+                    <div class="slider_close"><div class="alabel">MOSH NECK</div><div class="aslider aslider_mosh" id="slider_mosh_neck"></div></div>
+                    <div class="slider_close"><div class="alabel">MOSH SPEED</div><div class="aslider aslider_mosh" id="slider_mosh_speed"></div></div>
+                </div>
+
+                <!-- pg6 -->
+                <div class="slider_container_page centerxy" id="slider_pg6">
+                    <div class="slider_close"><div class="alabel">HEAD SIZE</div><div class="aslider aslider_bonesize" id="slider_head_size"></div></div>
+                    <div class="slider_close"><div class="alabel">FEET SIZE</div><div class="aslider  aslider_bonesize" id="slider_foot_size"></div></div>
+                    <!-- <div class="slider_close"><div class="alabel">STRETCH</div><div class="aslider" id="slider_stretch"></div></div> -->
+                </div>
+
+                <!-- pg7 -->
+                <div class="slider_container_page centerxy" id="slider_pg7">
+                    <div class="slider_close"><div class="alabel">UNREALITY DOSE</div><div class="aslider" id="slider_s_amp"></div></div>
+                    <div class="slider_close"><div class="alabel">UNREALITY SPEED</div><div class="aslider" id="slider_s_speed"></div></div>
+                    <div style="height:16px;clear:both;"></div>
+                    <div class="vshader_axis_sel_mobile vshader_axis_sel_mobile_along" data-axis="x">ALONG X</div><div class="vshader_axis_sel_mobile vshader_axis_sel_mobile_effect" data-axis="y">EFFECT Y</div>
+                </div>
+
+                <!-- footer -->
+                <div class="slider_footer centerx">
+                    <div class="rel">
+                        <div class="slider_arr_left centery"><img src="img/creator_arrow_l2.png" width="100%" height="100%"></div>
+                        <div class="slider_arr_right centery"><img src="img/creator_arrow_r2.png" width="100%" height="100%"></div>
+                        <div class="slider_dots centerxy">
+                            <div class="slider_dot slider_dot_sel" id="dot1"></div>
+                            <div class="slider_dot" id="dot2"></div>
+                            <div class="slider_dot" id="dot3"></div>
+                            <div class="slider_dot" id="dot4"></div>
+                            <div class="slider_dot" id="dot5"></div>
+                            <div class="slider_dot" id="dot6"></div>
+                            <div class="slider_dot" id="dot7"></div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div></div>
+
+        <!-- enter -->
+        <div class="enter_container"><div class="rel">
+            <div class="enter_gif"></div>
+            <div class="enter_gif_darken"></div>
+            <div class="enter_content">
+                <div class="enter_title">D D D A N C E . P A R T Y</div>
+                <div style="height:10px;"></div>
+                <input class="enter_input" spellcheck="false" id="enterpw" placeholder="P A S S C O D E" maxlength="32" oninput="this.value = this.value.toUpperCase()">
+                <div class="geta_code">GETA<br>CODE</div>
+                <div style="height:5px;"></div>
+                <div class="enter_button">E N T E R</div>         
+            </div>
+            <div class="enter_content2">
+                <div class="enter_title">D D D A N C E . P A R T Y</div>
+                <div style="height:10px;"></div>
+                <div class="enter_button2">E N T E R</div>         
+            </div>
+            <div class="code_content_back"></div>
+            <div class="code_content">
+                Hello. Looking for a PASSCODE? <br>
+                <div style="height:10px;"></div>
+                Too much traffic can cause the server to explode for this non-commercial internet art project. <br>
+                <div style="height:10px;"></div>
+                Follow <a href="https://www.instagram.com/fuzzy_wobble/" class="pulser3" target="_blank">@fuzzy_wobble</a> on IG for the PASSCODE that is updated monthly in the bio.
+                I've also just started using TikTok <a href="https://vm.tiktok.com/ZMRsDxhG4/" class="pulser3" target="_blank">@fuzzywww</a><br>
+                <div style="height:10px;"></div>
+            </div>
+            <div class="code_error pulser3">This is an error!</div>
+            <div class="enter_noncom">DDDANCE.PARTY IS A NON-COMMERCIAL INTERNET ART PROJECT</div>
+            <div class="enter_noncom2">DDDANCE.PARTY IS A NON-COMMERCIAL INTERNET ART PROJECT</div>
+            <div class="whatsnew"></div>
+            <div class="whatsnew_back"></div>
+        </div></div>
+         
+		<div id="httpref" style="position:absolute:z-index:-9999;"></div><div id="httpref2" style="position:absolute:z-index:-9999;"></div>		<script>
+			$(document).ready(()=>{
+                // var httpref  = $("#httpref").html();
+                // var httpref2  = $("#httpref2").html();
+                // if(httpref.includes("threejs")||httpref2.includes("threejs")){
+                //     $(".enter_content").hide();$(".enter_content2,.enter_button2").show();
+                // }
+                $(".enter_content").hide();$(".enter_content2,.enter_button2").show();
+            });
+		</script>
+
+        <!-- see in vr -->
+        <div class="seeinvr">
+            <div class="seeinvr_close"><img src="img/close_x_white.png"  width="100%" height="100%"></div>
+            <div class="seeinvr_content centerxy">Use the Oculus Quest web browser to view in VR</div>
+        </div>
+
+        <!-- msg -->
+		<div class="msg_darken"></div> 
+		<div class="msg_close"><img src="img/close_x_white.png" width="100%" height="100%"></div>
+
+        <!-- vr mode -->
+        <div class="log_overlay_for_xr"></div> <!-- debug vr -->
+        <div class="vr_darken"></div> 
+        <div class="vr_close"><img src="img/close_x_white.png" width="100%" height="100%"></div>
+        <div class="msg vr_nosupport exit_with_darken centerxy"></div>
+		<div class="msg vr_running opulser exit_with_darken centerxy">VR is running in the headset.</div>
+
+        <!-- js -->
+        <script src="lib/mydetect.js"></script>
+		<script src="lib/detect-gpu.umd.js"></script>
+		<script src="lib/howler.min.js"></script>
+		<script src="lib/dat.gui.js"></script>
+		<script src="lib/stats.min.js"></script>
+        <script src="lib/FileSaver.min.js"></script>
+		<script src="lib/r119/three.min.js"></script> 
+        <script src="lib/r119/OrbitControls.js"></script> 
+        <script src="lib/r119/OBJLoader.js"></script>
+        <script src="lib/r119/MTLLoader.js"></script> 
+		<script src="lib/r119/GLTFLoader.js"></script>
+		<script src="lib/r119/webxr-polyfill.js"></script>
+		<script>var webXRpf = new WebXRPolyfill({});</script>
+		<script src="lib/r119/VRButton_custom.js"></script>
+		<script src="lib/camera-controls.js"></script>
+		<script src="lib/utils/util-detect.js"></script>
+        <script src="build/js14.js"></script>
+
+        <script>
+            $(document).ready(()=>{
+                $("#guess_what_okay").click(()=>{
+                    $("#guess_what_container").hide();
+                });
+            });
+        </script>
+
+    </body>
+</html>

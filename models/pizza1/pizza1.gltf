@@ -1,0 +1,327 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                7,
+                8,
+                9
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "pizza_pizza_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "pizza",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Tarelka001__0"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Tarelka001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                1,
+                3
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "5c4c54040e5e4456bad50d3f439f1ab1.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.10146088153123856,
+                0.10146088898181915,
+                0.10146088898181915
+            ],
+            "translation" : [
+                0,
+                -0.11876802146434784,
+                0
+            ]
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "pizza",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Tarelka001__0",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7982954382896423
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "pizza_pizza_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Tarelka001__0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "pizza_baseColor",
+            "uri" : "textures/pizza_baseColor.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Tarelka001__0_baseColor",
+            "uri" : "textures/Tarelka001__0_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 48845,
+            "max" : [
+                19.698795318603516,
+                22.52992820739746,
+                3.559884786605835
+            ],
+            "min" : [
+                -23.54331398010254,
+                -19.2224178314209,
+                -0.7404354214668274
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 48845,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 48845,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 149892,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 3536,
+            "max" : [
+                21.80620002746582,
+                25.70479965209961,
+                1.2785999774932861
+            ],
+            "min" : [
+                -26.7810001373291,
+                -22.882400512695312,
+                -4.724299907684326
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 3536,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 3536,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 16116,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 586140,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 586140,
+            "byteOffset" : 586140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 390760,
+            "byteOffset" : 1172280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 299784,
+            "byteOffset" : 1563040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42432,
+            "byteOffset" : 1862824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42432,
+            "byteOffset" : 1905256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28288,
+            "byteOffset" : 1947688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32232,
+            "byteOffset" : 1975976
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2008208,
+            "uri" : "pizza1.bin"
+        }
+    ]
+}

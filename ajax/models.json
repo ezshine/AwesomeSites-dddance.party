@@ -1,0 +1,2992 @@
+[
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "raver2",
+        "name": "Raver",
+        "dances":
+        [
+            {
+                "uid": "raver2d01",
+                "dance": "Lazy Step",
+                "file": "models/raver2/lazystep.gltf"
+            },
+            {
+                "uid": "raver2d03",
+                "dance": "Took Too Much",
+                "file": "models/raver2/toomuch2.gltf"
+            },
+            {
+                "uid": "raver2d04",
+                "dance": "Took Too Much",
+                "file": "models/raver2/toomuch3.gltf"
+            },
+            {
+                "uid": "raver2d05",
+                "dance": "Rave Ready",
+                "file": "models/raver2/raveready.gltf"
+            },
+            {
+                "uid": "raver2d06",
+                "dance": "Smooth",
+                "file": "models/raver2/smooth.gltf"
+            }
+        ],
+        "temp_thumb": "models/bobby1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 10,
+            "alpha": 1,
+            "shine": 0.34,
+            "metal": 0.34,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "ackbar1",
+        "name": "Ackbub",
+        "dances":
+        [
+            {
+                "uid": "ackbar1d01",
+                "dance": "Cheer",
+                "file": "models/ackbar1/cheer.gltf"
+            },
+            {
+                "uid": "ackbar1d02",
+                "dance": "Hard Step",
+                "file": "models/ackbar1/hardstep.gltf"
+            },
+            {
+                "uid": "ackbar1d03",
+                "dance": "Can Can",
+                "file": "models/ackbar1/cancan.gltf"
+            },
+            {
+                "uid": "ackbar1d04",
+                "dance": "Took Too Much",
+                "file": "models/ackbar1/drugs.gltf"
+            },
+            {
+                "uid": "ackbar1d05",
+                "dance": "Hot Stepper",
+                "file": "models/ackbar1/hotstepper.gltf"
+            },
+            {
+                "uid": "ackbar1d06",
+                "dance": "Salsa",
+                "file": "models/ackbar1/salsa.gltf"
+            }
+        ],
+        "temp_thumb": "models/bobby1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.4,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "chicken1",
+        "name": "Big Ol' Bird",
+        "dances":
+        [
+            {
+                "uid": "chicken1d01",
+                "dance": "Hard Step",
+                "file": "models/chicken1/hardstep.gltf"
+            },
+            {
+                "uid": "chicken1d02",
+                "dance": "Runner",
+                "file": "models/chicken1/drunkrun.gltf"
+            },
+            {
+                "uid": "chicken1d03",
+                "dance": "Lazy Step",
+                "file": "models/chicken1/lazystep.gltf"
+            },
+            {
+                "uid": "chicken1d04",
+                "dance": "Falling",
+                "file": "models/chicken1/impact.gltf"
+            },
+            {
+                "uid": "chicken1d05",
+                "dance": "Salse",
+                "file": "models/chicken1/salsa.gltf"
+            }
+        ],
+        "temp_thumb": "models/bobby1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.1,
+            "metal": 0.3,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "bobby1",
+        "name": "Bobby",
+        "hen": "https://www.hicetnunc.xyz/objkt/36427",
+        "dances":
+        [
+            {
+                "uid": "bobby1d02",
+                "dance": "Da Dip",
+                "file": "models/bobby1/dadip.gltf"
+            },
+            {
+                "uid": "bobby1d03",
+                "dance": "Hot Stepper",
+                "file": "models/bobby1/hotstepper.gltf"
+            },
+            {
+                "uid": "bobby1d04",
+                "dance": "Lazy Stepper",
+                "file": "models/bobby1/lazystepper.gltf"
+            },
+            {
+                "uid": "bobby1d05",
+                "dance": "Hard Step",
+                "file": "models/bobby1/partymode.gltf"
+            }
+        ],
+        "temp_thumb": "models/bobby1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.6,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "henryporter1",
+        "name": "Henry Porter",
+        "hen": "https://www.hicetnunc.xyz/objkt/39624",
+        "dances":
+        [
+            {
+                "uid": "henry1d01",
+                "dance": "Cheer",
+                "file": "models/henryporter1/cheer.gltf"
+            },
+            {
+                "uid": "henry1d02",
+                "dance": "Lazy Stepper",
+                "file": "models/henryporter1/lazy_stepper.gltf"
+            },
+            {
+                "uid": "henry1d03",
+                "dance": "Hot Stepper",
+                "file": "models/henryporter1/hot_stepper.gltf"
+            },
+            {
+                "uid": "henry1d04",
+                "dance": "Drug",
+                "file": "models/henryporter1/drug.gltf"
+            },
+            {
+                "uid": "henry1d05",
+                "dance": "Head Spin",
+                "file": "models/henryporter1/head_spin.gltf"
+            },
+            {
+                "uid": "henry1d06",
+                "dance": "Magic",
+                "file": "models/henryporter1/magic.gltf"
+            }
+        ],
+        "temp_thumb": "models/henryporter1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.8,
+            "shine": 0.33,
+            "metal": 0.33,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "miku1",
+        "uid_title": "MIKU1",
+        "name": "Soniku",
+        "dances":
+        [
+            {
+                "uid": "miku1d01",
+                "dance": "Twist",
+                "file": "models/miku1/Miku1D1.gltf"
+            },
+            {
+                "uid": "miku1d02",
+                "dance": "Gangnam",
+                "file": "models/miku1/Miku1D2.gltf"
+            },
+            {
+                "uid": "miku1d04",
+                "dance": "Wind Up",
+                "file": "models/miku1/Miku1D4.gltf"
+            },
+            {
+                "uid": "miku1d06",
+                "dance": "Groove",
+                "file": "models/miku1/Miku_Booga.gltf"
+            },
+            {
+                "uid": "miku1d08",
+                "dance": "Smooth",
+                "file": "models/miku1/Miku_Gandy.gltf"
+            },
+            {
+                "uid": "miku1d09",
+                "dance": "Roboto",
+                "file": "models/miku1/Miku_Robot.gltf"
+            }
+        ],
+        "temp_thumb": "models/miku1/miku0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "woodboy1",
+        "uid_title": "woodboy1",
+        "name": "Wood Boy",
+        "dances":
+        [
+            {
+                "uid": "woodboy1d01",
+                "dance": "Twist",
+                "file": "models/woodboy1/woodboyD1.gltf"
+            },
+            {
+                "uid": "woodboy1d02",
+                "dance": "Gangnam",
+                "file": "models/woodboy1/woodboyD2.gltf"
+            },
+            {
+                "uid": "woodboy1d03",
+                "dance": "Twerk",
+                "file": "models/woodboy1/woodboyD3.gltf"
+            },
+            {
+                "uid": "woodboy1d04",
+                "dance": "Wind Up",
+                "file": "models/woodboy1/woodboyD4.gltf"
+            },
+            {
+                "uid": "woodboy1d05",
+                "dance": "BBoy",
+                "file": "models/woodboy1/woodboyD5.gltf"
+            },
+            {
+                "uid": "woodboy1d06",
+                "dance": "Boogie",
+                "file": "models/woodboy1/Woodboy_Booga.gltf"
+            },
+            {
+                "uid": "woodboy1d07",
+                "dance": "Chicken",
+                "file": "models/woodboy1/Woodboy_Chick.gltf"
+            },
+            {
+                "uid": "woodboy1d08",
+                "dance": "Smooth",
+                "file": "models/woodboy1/Woodboy_Gandy.gltf"
+            },
+            {
+                "uid": "woodboy1d09",
+                "dance": "Roboto",
+                "file": "models/woodboy1/Woodboy_Robot.gltf"
+            }
+        ],
+        "temp_thumb": "models/woodboy1/woodboy0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "ted2",
+        "name": "Ted Sanders",
+        "hen": "https://www.hicetnunc.xyz/objkt/33511",
+        "dances":
+        [
+            {
+                "uid": "ted2d03",
+                "dance": "Hard Step",
+                "file": "models/ted2/hardstep.gltf"
+            },
+            {
+                "uid": "ted2d01",
+                "dance": "DaDip",
+                "file": "models/ted2/dadip.gltf"
+            },
+            {
+                "uid": "ted2d02",
+                "dance": "Get Low",
+                "file": "models/ted2/getlow.gltf"
+            },
+            {
+                "uid": "ted2d04",
+                "dance": "Lazy Step",
+                "file": "models/ted2/lazystep.gltf"
+            },
+            {
+                "uid": "ted2d05",
+                "dance": "Party Mode",
+                "file": "models/ted2/partymode.gltf"
+            },
+            {
+                "uid": "ted2d06",
+                "dance": "Salsa",
+                "file": "models/ted2/salsa.gltf"
+            },
+            {
+                "uid": "ted2d07",
+                "dance": "Cheering",
+                "file": "models/ted2/thrash.gltf"
+            }
+        ],
+        "temp_thumb": "models/ted2/ted0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.8,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "alien1",
+        "name": "Alien AAXN3",
+        "dances":
+        [
+            {
+                "uid": "alien1d01",
+                "dance": "Twist",
+                "file": "models/alien1/Alien1_D1.gltf"
+            },
+            {
+                "uid": "alien1d02",
+                "dance": "Gangnam",
+                "file": "models/alien1/Alien1_D2.gltf"
+            },
+            {
+                "uid": "alien1d04",
+                "dance": "Windup",
+                "file": "models/alien1/Alien1_D4.gltf"
+            },
+            {
+                "uid": "alien1d06",
+                "dance": "Groove",
+                "file": "models/alien1/Alien_Booga.gltf"
+            },
+            {
+                "uid": "alien1d07",
+                "dance": "Chicken",
+                "file": "models/alien1/Alien_Chick.gltf"
+            },
+            {
+                "uid": "alien1d08",
+                "dance": "Smooth",
+                "file": "models/alien1/Alien_Gandy.gltf"
+            },
+            {
+                "uid": "alien1d09",
+                "dance": "Roboto",
+                "file": "models/alien1/Alien_Robot.gltf"
+            }
+        ],
+        "temp_thumb": "models/alien1/alien0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.95,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "sanic1",
+        "name": "Sanix",
+        "dances":
+        [
+            {
+                "uid": "sanic1d01",
+                "dance": "Twist",
+                "file": "models/sanic1/sonic_D1.gltf"
+            },
+            {
+                "uid": "sanic1d06",
+                "dance": "Groove",
+                "file": "models/sanic1/Sonic_Booga.gltf"
+            },
+            {
+                "uid": "sanic1d08",
+                "dance": "Smooth",
+                "file": "models/sanic1/Sonic_Gandy.gltf"
+            },
+            {
+                "uid": "sanic1d09",
+                "dance": "Roboto",
+                "file": "models/sanic1/Sonic_Robot.gltf"
+            }
+        ],
+        "temp_thumb": "models/sanic1/sanic0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.95,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "streetboy1",
+        "name": "Road Fighter",
+        "dances":
+        [
+            {
+                "uid": "streetboy1d01",
+                "dance": "Twist",
+                "file": "models/streetboy1/Ryu_D1.gltf"
+            },
+            {
+                "uid": "streetboy1d00",
+                "dance": "Cheer",
+                "file": "models/streetboy1/Ryu_Cheer1.gltf"
+            },
+            {
+                "uid": "streetboy1d02",
+                "dance": "Roboto",
+                "file": "models/streetboy1/Ryu_D2.gltf"
+            },
+            {
+                "uid": "streetboy1d05",
+                "dance": "BBoy",
+                "file": "models/streetboy1/Ryu_D5.gltf"
+            },
+            {
+                "uid": "streetboy1d06",
+                "dance": "Groove",
+                "file": "models/streetboy1/Streetboy_Booga.gltf"
+            },
+            {
+                "uid": "streetboy1d08",
+                "dance": "Smooth",
+                "file": "models/streetboy1/Streetboy_Gandy.gltf"
+            },
+            {
+                "uid": "streetboy1d09",
+                "dance": "Roboto",
+                "file": "models/streetboy1/Streetboy_Robot.gltf"
+            }
+        ],
+        "temp_thumb": "models/streetboy1/streetboy0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.83,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.45,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "terminator1",
+        "name": "Exterminator",
+        "dances":
+        [
+            {
+                "uid": "terminator1d01",
+                "dance": "Twist",
+                "file": "models/terminator1/termanD1.gltf"
+            },
+            {
+                "uid": "terminator1d00",
+                "dance": "Gangnam",
+                "file": "models/terminator1/termanD2.gltf"
+            },
+            {
+                "uid": "terminator1d02",
+                "dance": "Windup",
+                "file": "models/terminator1/termanD4.gltf"
+            }
+        ],
+        "temp_thumb": "models/terminator1/terminator0.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "banana1",
+        "name": "Banana",
+        "dances":
+        [
+            {
+                "uid": "banana1d01",
+                "dance": "Side Step",
+                "file": "models/banana1/Banana_bboy.gltf"
+            },
+            {
+                "uid": "banana1d05",
+                "dance": "Groovy",
+                "file": "models/banana1/Banana_Robo.gltf"
+            },
+            {
+                "uid": "banana1d06",
+                "dance": "Salsa",
+                "file": "models/banana1/Banana_Salsa.gltf"
+            },
+            {
+                "uid": "banana1d07",
+                "dance": "Shimmy",
+                "file": "models/banana1/Banana_Shimmy.gltf"
+            },
+            {
+                "uid": "banana1d09",
+                "dance": "Wave",
+                "file": "models/banana1/Banana_Wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/banana1/banana_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.8,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "monkey1",
+        "name": "Awareness Monkey",
+        "credit": "Danyy59",
+        "dances":
+        [
+            {
+                "uid": "monkey1d01",
+                "dance": "BBoy",
+                "file": "models/monkey1/Monkey_Brook.gltf"
+            },
+            {
+                "uid": "monkey1d02",
+                "dance": "Slo Mo",
+                "file": "models/monkey1/Monkey_Belly.gltf"
+            },
+            {
+                "uid": "monkey1d03",
+                "dance": "Cheer",
+                "file": "models/monkey1/Monkey_Cheer.gltf"
+            },
+            {
+                "uid": "monkey1d04",
+                "dance": "Chicken",
+                "file": "models/monkey1/Monkey_Chick.gltf"
+            },
+            {
+                "uid": "monkey1d05",
+                "dance": "Chill",
+                "file": "models/monkey1/Monkey_Chill.gltf"
+            },
+            {
+                "uid": "monkey1d07",
+                "dance": "Windup",
+                "file": "models/monkey1/Monkey_Mara.gltf"
+            },
+            {
+                "uid": "monkey1d08",
+                "dance": "Groove",
+                "file": "models/monkey1/Monkey_Robo.gltf"
+            },
+            {
+                "uid": "monkey1d09",
+                "dance": "Roboto",
+                "file": "models/monkey1/Monkey_Robo2.gltf"
+            },
+            {
+                "uid": "monkey1d10",
+                "dance": "Shimmy",
+                "file": "models/monkey1/Monkey_Shimmy.gltf"
+            }
+        ],
+        "temp_thumb": "models/monkey1/monkey1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.45,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "pepe1",
+        "name": "Pepe",
+        "credit2": "Matt Furie",
+        "dances":
+        [
+            {
+                "uid": "pepe1d01",
+                "dance": "Slo Mo",
+                "file": "models/pepe1/Pepe_Belly.gltf"
+            },
+            {
+                "uid": "pepe1d02",
+                "dance": "BBoy",
+                "file": "models/pepe1/Pepe_Brook.gltf"
+            },
+            {
+                "uid": "pepe1d03",
+                "dance": "Cheer",
+                "file": "models/pepe1/Pepe_Cheer.gltf"
+            },
+            {
+                "uid": "pepe1d05",
+                "dance": "Groove",
+                "file": "models/pepe1/Pepe_Hip1.gltf"
+            },
+            {
+                "uid": "pepe1d06",
+                "dance": "Roboto",
+                "file": "models/pepe1/Pepe_Robo.gltf"
+            },
+            {
+                "uid": "pepe1d07",
+                "dance": "Footwork",
+                "file": "models/pepe1/Pepe_Spin.gltf"
+            }
+        ],
+        "temp_thumb": "models/pepe1/pepe1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.6,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "watermelon1",
+        "name": "Mel",
+        "dances":
+        [
+            {
+                "uid": "watermelon1d03",
+                "dance": "Wave",
+                "file": "models/watermelon1/Watermelon_Hip1.gltf"
+            },
+            {
+                "uid": "watermelon1d04",
+                "dance": "Roboto",
+                "file": "models/watermelon1/Watermelon_Robo.gltf"
+            },
+            {
+                "uid": "watermelon1d05",
+                "dance": "Running",
+                "file": "models/watermelon1/Watermelon_Running.gltf"
+            }
+        ],
+        "temp_thumb": "models/watermelon1/watermelon1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.8,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "zuck1",
+        "name": "Mork",
+        "dances":
+        [
+            {
+                "uid": "zuck1d01",
+                "dance": "Bboy",
+                "file": "models/zuck1/Zuck_Bboy.gltf"
+            },
+            {
+                "uid": "zuck1d03",
+                "dance": "Shimmy",
+                "file": "models/zuck1/Zuck_Hip1.gltf"
+            },
+            {
+                "uid": "zuck1d04",
+                "dance": "Roboto",
+                "file": "models/zuck1/Zuck_Hip2.gltf"
+            },
+            {
+                "uid": "zuck1d06",
+                "dance": "Roboto",
+                "file": "models/zuck1/Zuck_Robo.gltf"
+            },
+            {
+                "uid": "zuck1d07",
+                "dance": "Roboto",
+                "file": "models/zuck1/Zuck_Robo2.gltf"
+            }
+        ],
+        "temp_thumb": "models/zuck1/Zuck1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.95,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.1,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "barry1",
+        "name": "Benny",
+        "dances":
+        [
+            {
+                "uid": "barry1d01",
+                "dance": "BBoy",
+                "file": "models/barry1/barry1_brook.gltf"
+            },
+            {
+                "uid": "barry1d02",
+                "dance": "Cheer",
+                "file": "models/barry1/barry1_cheer.gltf"
+            },
+            {
+                "uid": "barry1d04",
+                "dance": "Gangnam",
+                "file": "models/barry1/barry1_gangnam.gltf"
+            },
+            {
+                "uid": "barry1d06",
+                "dance": "Lazy Stepper",
+                "file": "models/barry1/barry1_hip1.gltf"
+            },
+            {
+                "uid": "barry1d07",
+                "dance": "Roboto",
+                "file": "models/barry1/barry1_hip2.gltf"
+            },
+            {
+                "uid": "barry1d09",
+                "dance": "Twerk",
+                "file": "models/barry1/barry1_twerk.gltf"
+            }
+        ],
+        "temp_thumb": "models/barry1/barry1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.75,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "flavor1",
+        "name": "Flavor Town",
+        "dances":
+        [
+            {
+                "uid": "flavor1d01",
+                "dance": "floor",
+                "file": "models/flavor1/flavor1_floor.gltf"
+            },
+            {
+                "uid": "flavor1d02",
+                "dance": "Shimmy",
+                "file": "models/flavor1/flavor1_hip1.gltf"
+            },
+            {
+                "uid": "flavor1d03",
+                "dance": "hip2",
+                "file": "models/flavor1/flavor1_hip2.gltf"
+            },
+            {
+                "uid": "flavor1d04",
+                "dance": "Thrash",
+                "file": "models/flavor1/flavor1_hip3.gltf"
+            },
+            {
+                "uid": "flavor1d05",
+                "dance": "Windup",
+                "file": "models/flavor1/flavor1_mara.gltf"
+            },
+            {
+                "uid": "flavor1d06",
+                "dance": "Roboto",
+                "file": "models/flavor1/flavor1_robo.gltf"
+            },
+            {
+                "uid": "flavor1d07",
+                "dance": "skin",
+                "file": "models/flavor1/flavor1_skin.gltf"
+            },
+            {
+                "uid": "flavor1d08",
+                "dance": "snake",
+                "file": "models/flavor1/flavor1_snake.gltf"
+            }
+        ],
+        "temp_thumb": "models/flavor1/flavor1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.75,
+            "shine": 0.5,
+            "metal": 0.15,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "furry1",
+        "name": "Furry",
+        "dances":
+        [
+            {
+                "uid": "furry1d04",
+                "dance": "Shimmy",
+                "file": "models/furry1/furry1_hip1.gltf"
+            },
+            {
+                "uid": "furry1d05",
+                "dance": "Hardstep",
+                "file": "models/furry1/furry1_hip2.gltf"
+            },
+            {
+                "uid": "furry1d06",
+                "dance": "Thrash",
+                "file": "models/furry1/furry1_hip3.gltf"
+            },
+            {
+                "uid": "furry1d07",
+                "dance": "YMCA",
+                "file": "models/furry1/furry1_maca.gltf"
+            },
+            {
+                "uid": "furry1d08",
+                "dance": "Snake",
+                "file": "models/furry1/furry1_snake.gltf"
+            },
+            {
+                "uid": "furry1d10",
+                "dance": "Wave",
+                "file": "models/furry1/furry1_wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/furry1/furry1_thumb.png",
+        "fix_vertices": "yes",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.1,
+            "metal": 0.4,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "hogan1",
+        "name": "Hogie",
+        "dances":
+        [
+            {
+                "uid": "hogan1d01",
+                "dance": "cheer",
+                "file": "models/hogan1/hogan1_cheer.gltf"
+            },
+            {
+                "uid": "hogan1d04",
+                "dance": "hip1",
+                "file": "models/hogan1/hogan1_hip1.gltf"
+            },
+            {
+                "uid": "hogan1d05",
+                "dance": "Da-Dip",
+                "file": "models/hogan1/hogan1_hip2.gltf"
+            },
+            {
+                "uid": "hogan1d08",
+                "dance": "wave",
+                "file": "models/hogan1/hogan1_wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/hogan1/hogan1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "kermit1",
+        "name": "Frogger",
+        "dances":
+        [
+            {
+                "uid": "kermit1d01",
+                "dance": "B-Boy",
+                "file": "models/kermit1/kermit1_brook.gltf"
+            },
+            {
+                "uid": "kermit1d02",
+                "dance": "Cheer",
+                "file": "models/kermit1/kermit1_cheer.gltf"
+            },
+            {
+                "uid": "kermit1d03",
+                "dance": "Gangnam",
+                "file": "models/kermit1/kermit1_gangnam.gltf"
+            },
+            {
+                "uid": "kermit1d04",
+                "dance": "Shuffle",
+                "file": "models/kermit1/kermit1_hip1.gltf"
+            },
+            {
+                "uid": "kermit1d05",
+                "dance": "Windup",
+                "file": "models/kermit1/kermit1_mara.gltf"
+            },
+            {
+                "uid": "kermit1d09",
+                "dance": "Twist",
+                "file": "models/kermit1/kermit1_twist.gltf"
+            }
+        ],
+        "temp_thumb": "models/kermit1/kermit1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.65,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "musk1",
+        "name": "Eloine",
+        "credit": "Elephai",
+        "dances":
+        [
+            {
+                "uid": "musk1d01",
+                "dance": "B-Boy",
+                "file": "models/musk1/musk1_brook.gltf"
+            },
+            {
+                "uid": "musk1d02",
+                "dance": "boot",
+                "file": "models/musk1/musk1_boot.gltf"
+            },
+            {
+                "uid": "musk1d03",
+                "dance": "guitar",
+                "file": "models/musk1/musk1_guitar.gltf"
+            },
+            {
+                "uid": "musk1d04",
+                "dance": "Shimmy",
+                "file": "models/musk1/musk1_hip1.gltf"
+            },
+            {
+                "uid": "musk1d05",
+                "dance": "hip2",
+                "file": "models/musk1/musk1_hip2.gltf"
+            },
+            {
+                "uid": "musk1d06",
+                "dance": "hip3",
+                "file": "models/musk1/musk1_hip3.gltf"
+            },
+            {
+                "uid": "musk1d07",
+                "dance": "run",
+                "file": "models/musk1/musk1_run.gltf"
+            }
+        ],
+        "temp_thumb": "models/musk1/musk1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.95,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "partyboi1",
+        "name": "Partyboi",
+        "credit": "RUFFENSTEINT",
+        "dances":
+        [
+            {
+                "uid": "partyboi1d01",
+                "dance": "BBoy",
+                "file": "models/partyboi1/partyboi1_brook.gltf"
+            },
+            {
+                "uid": "partyboi1d02",
+                "dance": "Cheer",
+                "file": "models/partyboi1/partyboi1_cheer.gltf"
+            },
+            {
+                "uid": "partyboi1d03",
+                "dance": "Shimmy",
+                "file": "models/partyboi1/partyboi1_hip1.gltf"
+            },
+            {
+                "uid": "partyboi1d04",
+                "dance": "Thrash",
+                "file": "models/partyboi1/partyboi1_hip2.gltf"
+            },
+            {
+                "uid": "partyboi1d05",
+                "dance": "Dip",
+                "file": "models/partyboi1/partyboi1_hip3.gltf"
+            },
+            {
+                "uid": "partyboi1d08",
+                "dance": "Twist",
+                "file": "models/partyboi1/partyboi1_silly.gltf"
+            }
+        ],
+        "temp_thumb": "models/partyboi1/partyboi1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.95,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.45,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "sofit1",
+        "name": "Moviestar",
+        "dances":
+        [
+            {
+                "uid": "sofit1d01",
+                "dance": "bboy",
+                "file": "models/sofit1/sofit1_bboy.gltf"
+            },
+            {
+                "uid": "sofit1d02",
+                "dance": "BBoy",
+                "file": "models/sofit1/sofit1_brook.gltf"
+            },
+            {
+                "uid": "sofit1d03",
+                "dance": "cheer",
+                "file": "models/sofit1/sofit1_cheer.gltf"
+            },
+            {
+                "uid": "sofit1d05",
+                "dance": "Thrash",
+                "file": "models/sofit1/sofit1_hip2.gltf"
+            },
+            {
+                "uid": "sofit1d06",
+                "dance": "Windup",
+                "file": "models/sofit1/sofit1_mara.gltf"
+            },
+            {
+                "uid": "sofit1d09",
+                "dance": "Wave",
+                "file": "models/sofit1/sofit1_wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/sofit1/sofit1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "ela1",
+        "name": "Ela",
+        "dances":
+        [
+            {
+                "uid": "ela1d01",
+                "dance": "Cancan",
+                "file": "models/ela1/cancan.gltf"
+            },
+            {
+                "uid": "ela1d02",
+                "dance": "Catwalk",
+                "file": "models/ela1/catwalk.gltf"
+            },
+            {
+                "uid": "ela1d03",
+                "dance": "Footwork",
+                "file": "models/ela1/footwork.gltf"
+            },
+            {
+                "uid": "ela1d04",
+                "dance": "Groovy",
+                "file": "models/ela1/groovy.gltf"
+            },
+            {
+                "uid": "ela1d05",
+                "dance": "Hardstep",
+                "file": "models/ela1/hardstep.gltf"
+            },
+            {
+                "uid": "ela1d06",
+                "dance": "Lazy Step",
+                "file": "models/ela1/lazystep.gltf"
+            },
+            {
+                "uid": "ela1d07",
+                "dance": "Thrash",
+                "file": "models/ela1/thrash.gltf"
+            },
+            {
+                "uid": "ela1d08",
+                "dance": "Wall Flip",
+                "file": "models/ela1/wallflip.gltf"
+            }
+        ],
+        "temp_thumb": "models/ela1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.4,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "echo1",
+        "name": "Echo",
+        "dances":
+        [
+            {
+                "uid": "Eecho1d01",
+                "dance": "Catwalk",
+                "file": "models/echo1/catwalk.gltf"
+            },
+            {
+                "uid": "Eecho1d02",
+                "dance": "Impact",
+                "file": "models/echo1/impact.gltf"
+            },
+            {
+                "uid": "Eecho1d03",
+                "dance": "Da Dip",
+                "file": "models/echo1/dadip.gltf"
+            },
+            {
+                "uid": "Eecho1d05",
+                "dance": "Smooth",
+                "file": "models/echo1/smooth.gltf"
+            },
+            {
+                "uid": "Eecho1d06",
+                "dance": "Stomper",
+                "file": "models/echo1/stomp.gltf"
+            },
+            {
+                "uid": "Eecho1d07",
+                "dance": "Salsa",
+                "file": "models/echo1/salsa.gltf"
+            }
+        ],
+        "temp_thumb": "models/echo1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.001,
+            "shine": 0.35,
+            "metal": 0.4,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "danny1",
+        "uid_title": "DANNY1",
+        "name": "Dan",
+        "dances":
+        [
+            {
+                "uid": "danny1d01",
+                "dance": "Bboy",
+                "file": "models/danny1/Danny1_Bboy.gltf"
+            },
+            {
+                "uid": "danny1d04",
+                "dance": "Cheer",
+                "file": "models/danny1/Danny1_Cheer.gltf"
+            },
+            {
+                "uid": "danny1d05",
+                "dance": "Hard Step",
+                "file": "models/danny1/Danny1_Hip1.gltf"
+            },
+            {
+                "uid": "danny1d06",
+                "dance": "Thrash",
+                "file": "models/danny1/Danny1_Hip2.gltf"
+            }
+        ],
+        "temp_thumb": "models/danny1/Danny1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "kong1",
+        "name": "Funky Monky",
+        "dances":
+        [
+            {
+                "uid": "kong1d02",
+                "dance": "break",
+                "file": "models/kong1/Kong1_break.gltf"
+            },
+            {
+                "uid": "kong1d04",
+                "dance": "Shimmy",
+                "file": "models/kong1/Kong1_Hip1.gltf"
+            },
+            {
+                "uid": "kong1d05",
+                "dance": "Hardstep",
+                "file": "models/kong1/Kong1_Hip2.gltf"
+            },
+            {
+                "uid": "kong1d06",
+                "dance": "Dadip",
+                "file": "models/kong1/Kong1_Hip3.gltf"
+            },
+            {
+                "uid": "kong1d08",
+                "dance": "Salsa",
+                "file": "models/kong1/Kong1_salsa.gltf"
+            }
+        ],
+        "appearance":
+        {
+            "scale_adjust_y": 0.7,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.35,
+            "metal": 0.45,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "kim1",
+        "name": "Kimberly",
+        "dances":
+        [
+            {
+                "uid": "kim1d02",
+                "dance": "B-Boy",
+                "file": "models/kim1/Kim1_brook.gltf"
+            },
+            {
+                "uid": "kim1d03",
+                "dance": "Raiseroof",
+                "file": "models/kim1/Kim1_hip1.gltf"
+            },
+            {
+                "uid": "kim1d05",
+                "dance": "jazz1",
+                "file": "models/kim1/Kim1_jazz1.gltf"
+            },
+            {
+                "uid": "kim1d06",
+                "dance": "salsa1",
+                "file": "models/kim1/Kim1_salsa1.gltf"
+            }
+        ],
+        "temp_thumb": "models/kim1/Kim1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.85,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.25,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "bear1",
+        "name": "Scare Bear",
+        "credit": "Padraig Daly",
+        "dances":
+        [
+            {
+                "uid": "bear1d01",
+                "dance": "Cheer",
+                "file": "models/bear1/Bear1_cheer.gltf"
+            },
+            {
+                "uid": "bear1d02",
+                "dance": "Gangnam",
+                "file": "models/bear1/Bear1_gangnam.gltf"
+            },
+            {
+                "uid": "bear1d04",
+                "dance": "Roboto",
+                "file": "models/bear1/Bear1_hip2.gltf"
+            },
+            {
+                "uid": "bear1d07",
+                "dance": "salsa",
+                "file": "models/bear1/Bear1_salsa.gltf"
+            }
+        ],
+        "temp_thumb": "models/bear1/Bear1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.8,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.33,
+            "metal": 0.4,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "baldi1",
+        "name": "baldi",
+        "dances":
+        [
+            {
+                "uid": "Baldi1d01",
+                "dance": "Bboy",
+                "file": "models/baldi1/baldi1_bboy.gltf"
+            },
+            {
+                "uid": "baldi1d02",
+                "dance": "Cheer",
+                "file": "models/baldi1/baldi1_cheer.gltf"
+            },
+            {
+                "uid": "baldi1d03",
+                "dance": "Hardstep",
+                "file": "models/baldi1/baldi1_hip1.gltf"
+            },
+            {
+                "uid": "baldi1d04",
+                "dance": "Thrash",
+                "file": "models/baldi1/baldi1_hip2.gltf"
+            },
+            {
+                "uid": "baldi1d05",
+                "dance": "hip3",
+                "file": "models/baldi1/baldi1_hip3.gltf"
+            },
+            {
+                "uid": "baldi1d06",
+                "dance": "Groove",
+                "file": "models/baldi1/baldi1_hip4.gltf"
+            },
+            {
+                "uid": "baldi1d07",
+                "dance": "Roboto",
+                "file": "models/baldi1/baldi1_robo.gltf"
+            },
+            {
+                "uid": "baldi1d08",
+                "dance": "Salsa",
+                "file": "models/baldi1/baldi1_salsa.gltf"
+            }
+        ],
+        "temp_thumb": "models/baldi1/baldi1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.6,
+            "metal": 0.5,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "tingle1",
+        "name": "Tinkle",
+        "dances":
+        [
+            {
+                "uid": "tingle1d02",
+                "dance": "bboy",
+                "file": "models/tingle1/tingle1_bboy2.gltf"
+            },
+            {
+                "uid": "tingle1d04",
+                "dance": "guitar",
+                "file": "models/tingle1/tingle1_guitar.gltf"
+            },
+            {
+                "uid": "tingle1d05",
+                "dance": "Roboto",
+                "file": "models/tingle1/tingle1_hip1.gltf"
+            },
+            {
+                "uid": "tingle1d06",
+                "dance": "salsa",
+                "file": "models/tingle1/tingle1_salsa.gltf"
+            },
+            {
+                "uid": "tingle1d07",
+                "dance": "splits",
+                "file": "models/tingle1/tingle1_spin.gltf"
+            },
+            {
+                "uid": "tingle1d08",
+                "dance": "wave",
+                "file": "models/tingle1/tingle1_wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/tingle1/tingle1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.6,
+            "metal": 0.2,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "bruh1",
+        "name": "Bruh'",
+        "credit": "Danyy59",
+        "dances":
+        [
+            {
+                "uid": "bruh1d01",
+                "dance": "Footwork",
+                "file": "models/bruh1/bruh1_hip1.gltf"
+            },
+            {
+                "uid": "bruh1d02",
+                "dance": "Lazy Stepper",
+                "file": "models/bruh1/bruh1_hip2.gltf"
+            },
+            {
+                "uid": "bruh1d03",
+                "dance": "Roboto",
+                "file": "models/bruh1/bruh1_hip3.gltf"
+            },
+            {
+                "uid": "bruh1d07",
+                "dance": "Can Can",
+                "file": "models/bruh1/bruh1_jazz.gltf"
+            }
+        ],
+        "temp_thumb": "models/bruh1/bruh1_thumb.png",
+        "appearance":
+        {
+            "scale_adjust_y": 0.5,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.55,
+            "metal": 0.15,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "brocolli1",
+        "name": "Brocolli",
+        "credit": "E.Uralsky",
+        "dances":
+        [
+            {
+                "uid": "brocolli1d01",
+                "dance": "",
+                "file": "models/brocolli1/scene.gltf"
+            }
+        ],
+        "temp_thumb": "models/brocolli1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1.33,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.5,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "bowery1",
+        "name": "Bowery NYC Subway",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "bowery1d01",
+                "dance": "",
+                "file": "models/bowery1/bowery3.gltf"
+            }
+        ],
+        "temp_thumb": "models/brocolli1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 2,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.1,
+            "metal": 0.33,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "oldcouch1",
+        "name": "Couch",
+        "credit": "Oliver Triplett",
+        "dances":
+        [
+            {
+                "uid": "oldcouch1",
+                "dance": "",
+                "file": "models/oldcouch1/scene.gltf"
+            }
+        ],
+        "temp_thumb": "models/oldcouch1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.5,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "objects",
+        "uid": "discoball1",
+        "uid_title": "discoball1",
+        "name": "Bad Disco Ball",
+        "credit": "SusanKing",
+        "dances":
+        [
+            {
+                "uid": "discoball1",
+                "dance": "",
+                "file": "models/discoball1/scene.gltf"
+            }
+        ],
+        "temp_thumb": "models/discoball1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.7,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.95,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "ddr1",
+        "uid_title": "ddr1",
+        "name": "DDR",
+        "credit": "Victoria Reinhold",
+        "dances":
+        [
+            {
+                "uid": "ddr1",
+                "dance": "",
+                "file": "models/ddr1/scene.gltf"
+            }
+        ],
+        "temp_thumb": "models/ddr1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1.2,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.5,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "freeka1",
+        "uid_title": "freeka1",
+        "name": "Freeka",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "freeka1d01",
+                "dance": "Stomper",
+                "file": "models/freeka1/vibes.gltf"
+            }
+        ],
+        "temp_thumb": "models/freeka1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "ruff1",
+        "uid_title": "ruff1",
+        "name": "Jason Ruff",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "ruff1d01",
+                "dance": "Vibes",
+                "file": "models/ruff1/dance1.gltf"
+            },
+            {
+                "uid": "ruff1d02",
+                "dance": "Pop Rock",
+                "file": "models/ruff1/dance2.gltf"
+            },
+            {
+                "uid": "ruff1d03",
+                "dance": "Hard Step",
+                "file": "models/ruff1/dance3.gltf"
+            },
+            {
+                "uid": "ruff1d04",
+                "dance": "Breakin",
+                "file": "models/ruff1/dance4.gltf"
+            }
+        ],
+        "temp_thumb": "models/ruff1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "daito1",
+        "uid_title": "daito1",
+        "name": "Daito",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "daito1d01",
+                "dance": "Phone",
+                "file": "models/daito1/dance1.gltf"
+            },
+            {
+                "uid": "daito1d02",
+                "dance": "Floating",
+                "file": "models/daito1/dance2.gltf"
+            },
+            {
+                "uid": "daito1d03",
+                "dance": "A",
+                "file": "models/daito1/dance3.gltf"
+            },
+            {
+                "uid": "daito1d04",
+                "dance": "B",
+                "file": "models/daito1/dance4.gltf"
+            }
+        ],
+        "temp_thumb": "models/daito1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "studygroup1",
+        "uid_title": "studygroup1",
+        "name": "Student",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "studygroup1d01",
+                "dance": "d1",
+                "file": "models/studygroup1/dance1.gltf"
+            },
+            {
+                "uid": "studygroup1d02",
+                "dance": "d2",
+                "file": "models/studygroup1/dance2.gltf"
+            },
+            {
+                "uid": "studygroup1d03",
+                "dance": "d3",
+                "file": "models/studygroup1/dance3.gltf"
+            }
+        ],
+        "temp_thumb": "models/studygroup1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "frog1",
+        "name": "Frogger",
+        "credit": "",
+        "hen": "https://www.hicetnunc.xyz/objkt/35743",
+        "dances":
+        [
+            {
+                "uid": "frog1d01",
+                "dance": "Housey",
+                "file": "models/frog1/housey2.gltf"
+            },
+            {
+                "uid": "frog1d02",
+                "dance": "Chill",
+                "file": "models/frog1/okay.gltf"
+            }
+        ],
+        "temp_thumb": "models/studygroup1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.7,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "uid": "banana2",
+        "name": "Banana",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "banana2d01",
+                "dance": "Cheering",
+                "file": "models/banana2/cheering.gltf"
+            },
+            {
+                "uid": "banana2d02",
+                "dance": "Dancing 1",
+                "file": "models/banana2/dancing1.gltf"
+            },
+            {
+                "uid": "banana2d03",
+                "dance": "Dancing 2",
+                "file": "models/banana2/dancing2.gltf"
+            },
+            {
+                "uid": "banana2d04",
+                "dance": "Dancing 3",
+                "file": "models/banana2/dancing3.gltf"
+            },
+            {
+                "uid": "banana2d05",
+                "dance": "Hip Hop 1",
+                "file": "models/banana2/hh1.gltf"
+            },
+            {
+                "uid": "banana2d06",
+                "dance": "Hip Hop 2",
+                "file": "models/banana2/hh2.gltf"
+            },
+            {
+                "uid": "banana2d07",
+                "dance": "Samba",
+                "file": "models/banana2/samba1.gltf"
+            },
+            {
+                "uid": "banana2d08",
+                "dance": "Slip",
+                "file": "models/banana2/slip.gltf"
+            },
+            {
+                "uid": "banana2d09",
+                "dance": "Spin",
+                "file": "models/banana2/spin.gltf"
+            },
+            {
+                "uid": "banana2d10",
+                "dance": "Twist",
+                "file": "models/banana2/twist.gltf"
+            },
+            {
+                "uid": "banana2d11",
+                "dance": "wave",
+                "file": "models/banana2/wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/banana2/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.8,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "djkontrol1",
+        "name": "Happy Hardcore DJ",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "djkontrol1d01",
+                "dance": "",
+                "file": "models/djkontrol1/scene.gltf"
+            }
+        ],
+        "temp_thumb": "models/frog1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.1,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.5,
+            "metal": 0.05,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "henryporter1",
+        "name": "Henry Porter",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "henryporter1d01",
+                "dance": "Drug",
+                "file": "models/henryporter1/drug.gltf"
+            },
+            {
+                "uid": "henryporter1d02",
+                "dance": "Head Bang",
+                "file": "models/henryporter1/head_bang.gltf"
+            },
+            {
+                "uid": "henryporter1d03",
+                "dance": "Head Spin",
+                "file": "models/henryporter1/head_spin.gltf"
+            },
+            {
+                "uid": "henryporter1d04",
+                "dance": "Hot Stepper",
+                "file": "models/henryporter1/hot_stepper.gltf"
+            },
+            {
+                "uid": "henryporter1d05",
+                "dance": "Lazy Stepper",
+                "file": "models/henryporter1/lazy_stepper.gltf"
+            },
+            {
+                "uid": "henryporter1d06",
+                "dance": "Magic",
+                "file": "models/henryporter1/magic.gltf"
+            }
+        ],
+        "temp_thumb": "models/henryporter1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "hotfurry1",
+        "name": "Furry",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "hotfurry1d01",
+                "dance": "Dadip",
+                "file": "models/hotfurry1/dadip.gltf"
+            }
+        ],
+        "temp_thumb": "models/hotfurry1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.9,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.4,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "wad1",
+        "name": "Wad",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "wad1d01",
+                "dance": "",
+                "file": "models/wad1/scene2.gltf"
+            }
+        ],
+        "temp_thumb": "models/frog1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.1,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "michael2",
+        "name": "Michael",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "michael2d01",
+                "dance": "Bars",
+                "file": "models/michael2/bars.gltf"
+            },
+            {
+                "uid": "michael2d02",
+                "dance": "Cancan",
+                "file": "models/michael2/cancan.gltf"
+            },
+            {
+                "uid": "michael2d03",
+                "dance": "Ladies Man",
+                "file": "models/michael2/ladies_man.gltf"
+            },
+            {
+                "uid": "michael2d04",
+                "dance": "Party Time",
+                "file": "models/michael2/party_time.gltf"
+            }
+        ],
+        "temp_thumb": "models/michael2/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "nug2",
+        "name": "Nug",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "nug2d01",
+                "dance": "B-Boy",
+                "file": "models/nug2/bboy.gltf"
+            },
+            {
+                "uid": "nug2d02",
+                "dance": "Partymode",
+                "file": "models/nug2/breakdance.gltf"
+            },
+            {
+                "uid": "nug2d03",
+                "dance": "Can Can",
+                "file": "models/nug2/can_can.gltf"
+            },
+            {
+                "uid": "nug2d04",
+                "dance": "Groove",
+                "file": "models/nug2/dancing.gltf"
+            },
+            {
+                "uid": "nug2d05",
+                "dance": "Drumming",
+                "file": "models/nug2/drumming.gltf"
+            },
+            {
+                "uid": "nug2d06",
+                "dance": "Gangnam",
+                "file": "models/nug2/gang.gltf"
+            },
+            {
+                "uid": "nug2d07",
+                "dance": "Hard Step",
+                "file": "models/nug2/hh1.gltf"
+            },
+            {
+                "uid": "nug2d08",
+                "dance": "Da Dip",
+                "file": "models/nug2/hh2.gltf"
+            },
+            {
+                "uid": "nug2d09",
+                "dance": "Hot Stepper",
+                "file": "models/nug2/hh3.gltf"
+            },
+            {
+                "uid": "nug2d10",
+                "dance": "Lazy Stepper",
+                "file": "models/nug2/hh4.gltf"
+            }
+        ],
+        "temp_thumb": "models/nug2/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.6,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "patty1",
+        "name": "Patty",
+        "credit": "Malaya Yu",
+        "dances":
+        [
+            {
+                "uid": "pattyd01",
+                "dance": "Raise Roof",
+                "file": "models/patty1/raise_roof.gltf"
+            },
+            {
+                "uid": "pattyd02",
+                "dance": "Rave Alert",
+                "file": "models/patty1/rave_alert.gltf"
+            },
+            {
+                "uid": "pattyd03",
+                "dance": "Ready",
+                "file": "models/patty1/ready.gltf"
+            },
+            {
+                "uid": "pattyd04",
+                "dance": "Neck",
+                "file": "models/patty1/neck.gltf"
+            }
+        ],
+        "temp_thumb": "models/frog1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.7,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.5,
+            "metal": 0.5,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "pepe2",
+        "name": "Pepe",
+        "credit": "",
+        "credit2": "Matt Furie",
+        "dances":
+        [
+            {
+                "uid": "pepe2d01",
+                "dance": "Cheering",
+                "file": "models/pepe2/cheering.gltf"
+            },
+            {
+                "uid": "pepe2d02",
+                "dance": "Head Spin",
+                "file": "models/pepe2/head_spin.gltf"
+            },
+            {
+                "uid": "pepe2d03",
+                "dance": "Hot Stepper",
+                "file": "models/pepe2/hot_stepper.gltf"
+            },
+            {
+                "uid": "pepe2d04",
+                "dance": "Kick",
+                "file": "models/pepe2/kick.gltf"
+            },
+            {
+                "uid": "pepe2d05",
+                "dance": "Lazy Stepper",
+                "file": "models/pepe2/lazy_stepper.gltf"
+            },
+            {
+                "uid": "pepe2d06",
+                "dance": "Leaner",
+                "file": "models/pepe2/shaky_shaky.gltf"
+            }
+        ],
+        "temp_thumb": "models/pepe2/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.6,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "pepper1",
+        "name": "Pepper",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "pepper1d03",
+                "dance": "Hard Step",
+                "file": "models/pepper1/hh1.gltf"
+            },
+            {
+                "uid": "pepper1d04",
+                "dance": "Hot Stepper",
+                "file": "models/pepper1/hh2.gltf"
+            },
+            {
+                "uid": "pepper1d06",
+                "dance": "Footwork",
+                "file": "models/pepper1/slide.gltf"
+            },
+            {
+                "uid": "pepper1d07",
+                "dance": "Took Too Much",
+                "file": "models/pepper1/wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/pepper1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.65,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.8,
+            "metal": 0.15,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "slenderman1",
+        "name": "Slenderman",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "slenderman1d01",
+                "dance": "Dance",
+                "file": "models/slenderman1/dance.gltf"
+            },
+            {
+                "uid": "slenderman1d02",
+                "dance": "Roof Raise",
+                "file": "models/slenderman1/roof_raise.gltf"
+            },
+            {
+                "uid": "slenderman1d03",
+                "dance": "Swing",
+                "file": "models/slenderman1/swing.gltf"
+            },
+            {
+                "uid": "slenderman1d04",
+                "dance": "YMCA",
+                "file": "models/slenderman1/ymca.gltf"
+            }
+        ],
+        "temp_thumb": "models/slenderman1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1.1,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "watermelon2",
+        "name": "Mel",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "watermelon2d01",
+                "dance": "B-Boy",
+                "file": "models/watermelon2/bboy.gltf"
+            },
+            {
+                "uid": "watermelon2d02",
+                "dance": "Dancing",
+                "file": "models/watermelon2/dancing.gltf"
+            },
+            {
+                "uid": "watermelon2d03",
+                "dance": "Hip Hop 1",
+                "file": "models/watermelon2/hiphop1.gltf"
+            },
+            {
+                "uid": "watermelon2d04",
+                "dance": "Hip Hop 2",
+                "file": "models/watermelon2/hiphop2.gltf"
+            },
+            {
+                "uid": "watermelon2d05",
+                "dance": "Hip Hop 3",
+                "file": "models/watermelon2/hiphop3.gltf"
+            },
+            {
+                "uid": "watermelon2d06",
+                "dance": "Hip Hop 4",
+                "file": "models/watermelon2/hiphop4.gltf"
+            },
+            {
+                "uid": "watermelon2d07",
+                "dance": "Salsa",
+                "file": "models/watermelon2/salsa.gltf"
+            },
+            {
+                "uid": "watermelon2d08",
+                "dance": "Swing",
+                "file": "models/watermelon2/Swing.gltf"
+            },
+            {
+                "uid": "watermelon2d09",
+                "dance": "Wave",
+                "file": "models/watermelon2/wave.gltf"
+            }
+        ],
+        "temp_thumb": "models/watermelon2/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "zuck2",
+        "name": "Mork",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "zuck2d01",
+                "dance": "Hacking",
+                "file": "models/zuck2/hacking.gltf"
+            },
+            {
+                "uid": "zuck2d02",
+                "dance": "Laying",
+                "file": "models/zuck2/laying.gltf"
+            },
+            {
+                "uid": "zuck2d03",
+                "dance": "Restless",
+                "file": "models/zuck2/restless.gltf"
+            },
+            {
+                "uid": "zuck2d04",
+                "dance": "Walk",
+                "file": "models/zuck2/walk.gltf"
+            }
+        ],
+        "temp_thumb": "models/zuck2/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.7,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.1,
+            "metal": 0.1,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "motorbiker1",
+        "name": "French Biker #1",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "motorbiker1d01",
+                "dance": "Lazy Step",
+                "file": "models/motorbiker1/dance1.gltf"
+            },
+            {
+                "uid": "motorbiker1d02",
+                "dance": "Ready",
+                "file": "models/motorbiker1/dance2.gltf"
+            },
+            {
+                "uid": "motorbiker1d03",
+                "dance": "Cheer",
+                "file": "models/motorbiker1/dance3.gltf"
+            },
+            {
+                "uid": "motorbiker1d04",
+                "dance": "Hot Stepper",
+                "file": "models/motorbiker1/dance4.gltf"
+            },
+            {
+                "uid": "motorbiker1d05",
+                "dance": "Lazy Stepper",
+                "file": "models/motorbiker1/dance5.gltf"
+            },
+            {
+                "uid": "motorbiker1d06",
+                "dance": "Ouch",
+                "file": "models/motorbiker1/dance6.gltf"
+            }
+        ],
+        "temp_thumb": "models/zuck2/thumb_.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.66,
+            "metal": 0.66,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "characters",
+        "uid": "motorbiker2",
+        "name": "French Biker #2",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "motorbiker2d01",
+                "dance": "Lazy Step",
+                "file": "models/motorbiker2/dance1.gltf"
+            },
+            {
+                "uid": "motorbiker2d02",
+                "dance": "Ready",
+                "file": "models/motorbiker2/dance2.gltf"
+            },
+            {
+                "uid": "motorbiker2d03",
+                "dance": "Cheer",
+                "file": "models/motorbiker2/dance3.gltf"
+            },
+            {
+                "uid": "motorbiker2d04",
+                "dance": "Seizure",
+                "file": "models/motorbiker2/dance4.gltf"
+            },
+            {
+                "uid": "motorbiker2d05",
+                "dance": "Hot Stepper",
+                "file": "models/motorbiker2/dance5.gltf"
+            },
+            {
+                "uid": "motorbiker2d06",
+                "dance": "Lazy Stepper",
+                "file": "models/motorbiker2/dance6.gltf"
+            }
+        ],
+        "temp_thumb": "models/zuck2/thumb_.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.66,
+            "metal": 0.66,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "tedtalk1",
+        "uid_title": "tedtalk1",
+        "name": "BIG Talk",
+        "credit": "Tarathorn",
+        "dances":
+        [
+            {
+                "uid": "tedtalk1",
+                "dance": "",
+                "file": "models/tedtalk1/tedtalk.gltf"
+            }
+        ],
+        "thumb": "models/tedtalk1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.6,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.3,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "objects",
+        "uid": "cards1",
+        "uid_title": "cards1",
+        "name": "Cards",
+        "credit": "warkarma",
+        "dances":
+        [
+            {
+                "uid": "cards1",
+                "dance": "",
+                "file": "models/cards1/cards.gltf"
+            }
+        ],
+        "thumb": "models/cards1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1.33,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.95,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "chess1",
+        "uid_title": "chess1",
+        "name": "Chess",
+        "credit": "warkarma",
+        "dances":
+        [
+            {
+                "uid": "chess1",
+                "dance": "",
+                "file": "models/chess1/chess1.gltf"
+            }
+        ],
+        "thumb": "models/chess1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.66,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.5,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "bull1",
+        "uid_title": "bull1",
+        "name": "Wall Street Bull",
+        "credit": "Zafio",
+        "dances":
+        [
+            {
+                "uid": "bull1",
+                "dance": "",
+                "file": "models/bull1/bull.gltf"
+            }
+        ],
+        "thumb": "models/bull1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.85,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.33,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "pizza1",
+        "uid_title": "pizza1",
+        "name": "Pizza",
+        "credit": "Rigsters",
+        "dances":
+        [
+            {
+                "uid": "pizza1",
+                "dance": "",
+                "file": "models/pizza1/pizza1.gltf"
+            }
+        ],
+        "thumb": "models/pizza1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.2,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.33,
+            "metal": 0.5,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "apollo1",
+        "uid_title": "apollo1",
+        "name": "Apollo",
+        "credit": "Rigsters",
+        "dances":
+        [
+            {
+                "uid": "apollo1",
+                "dance": "",
+                "file": "models/apollo1/apollo.gltf"
+            }
+        ],
+        "thumb": "models/apollo1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1.2,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.85,
+            "metal": 0.7,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "arcade1",
+        "uid_title": "arcade1",
+        "name": "dddance Arcade",
+        "credit": "ion_omat",
+        "dances":
+        [
+            {
+                "uid": "arcade1",
+                "dance": "",
+                "file": "models/arcade1/arcade.gltf"
+            }
+        ],
+        "thumb": "models/arcade1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.95,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "oldtv1",
+        "uid_title": "oldtv1",
+        "name": "dddance TV",
+        "credit": "mohsen_a.ebrahimi",
+        "dances":
+        [
+            {
+                "uid": "oldtv1",
+                "dance": "",
+                "file": "models/oldtv1/oldtv.gltf"
+            }
+        ],
+        "thumb": "models/oldtv1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 0.6,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.95,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "static",
+        "category": "objects",
+        "uid": "van1",
+        "uid_title": "van1",
+        "name": "Van",
+        "credit": "Karol Miklas",
+        "dances":
+        [
+            {
+                "uid": "van1",
+                "dance": "",
+                "file": "models/van1/van1.gltf"
+            }
+        ],
+        "thumb": "models/van1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.95,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "objects",
+        "uid": "qcube1",
+        "uid_title": "qcube1",
+        "name": "Cubes",
+        "credit": "TomAce",
+        "dances":
+        [
+            {
+                "uid": "qcube1",
+                "dance": "",
+                "file": "models/qcube1/qcube.gltf"
+            }
+        ],
+        "thumb": "models/qcube1/thumb.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1.4,
+            "scale_shader": 1,
+            "alpha": 0.1,
+            "shine": 0.95,
+            "metal": 0.6,
+            "hue": 1
+        }
+    },
+    {
+        "type": "gltf",
+        "kind": "animated",
+        "category": "irl",
+        "uid": "mittens1",
+        "name": "Mittens",
+        "credit": "",
+        "dances":
+        [
+            {
+                "uid": "mittens1d01",
+                "dance": "d1",
+                "file": "models/mittens1/dance1.gltf"
+            },
+            {
+                "uid": "mittens1d03",
+                "dance": "d3",
+                "file": "models/mittens1/dance3.gltf"
+            },
+            {
+                "uid": "mittens1d04",
+                "dance": "d4",
+                "file": "models/mittens1/dance4.gltf"
+            },
+            {
+                "uid": "mittens1d05",
+                "dance": "d5",
+                "file": "models/mittens1/dance5.gltf"
+            }
+        ],
+        "temp_thumb": "models/zuck2/thumb_.jpg",
+        "appearance":
+        {
+            "scale_adjust_y": 1,
+            "scale_shader": 1,
+            "alpha": 0.5,
+            "shine": 0.3,
+            "metal": 0.4,
+            "hue": 1
+        }
+    }
+]
