@@ -1,1 +1,477 @@
-{"DUMMY_USERS_FOR_SAVING":["Andrew","Nathan","Zoey","Alexander"],"DEFAULT_SCENE":{"scene_uid":"scene_skybox03","song_uid":"genius_of_love","models":[{"index":0,"uid":"pepe2d01","type":"gltf","kind":"animated","settings":{"x":0.5,"y":0,"z":0,"ry":-0.6,"scale_gui":0.85,"locked":false,"speed":1}},{"index":1,"uid":"bruh1d01","type":"gltf","kind":"animated","settings":{"x":-1,"y":0,"z":-0.1,"ry":0.66,"scale_gui":0.7,"locked":false,"speed":1}},{"index":2,"uid":"bobby1d02","type":"gltf","kind":"animated","settings":{"x":-0.3,"y":0,"z":-0.7,"ry":0.25,"scale_gui":0.9,"locked":false,"speed":1.15}},{"index":4,"uid":"ackbar1d04","type":"gltf","kind":"animated","settings":{"x":0.3,"y":0,"z":-0.8,"ry":-0.33,"scale_gui":1,"locked":false,"speed":1}}],"camera_start":{"x":0,"y":1.2,"z":3,"tx":0,"ty":0.85,"tz":0}},"DEFAULT_CAM":{"x":-4,"y":4,"z":10,"tx":0,"ty":1,"tz":0},"SKYBOXES":[{"uid":"skybox_space1","dir_desktop":"img\/skyboxes\/skybox_space1\/","dir_mobile":"img\/skyboxes_mobile\/skybox_space1\/","format":"png","skybox":null},{"uid":"skybox_space2","dir_desktop":"img\/skyboxes\/skybox_space2\/","dir_mobile":"img\/skyboxes_mobile\/skybox_space2\/","format":"png","skybox":null},{"uid":"skybox_space3","dir_desktop":"img\/skyboxes\/skybox_space3\/","dir_mobile":"img\/skyboxes_mobile\/skybox_space3\/","format":"png","skybox":null},{"uid":"skybox_sky1","dir_desktop":"img\/skyboxes\/skybox_sky1\/","dir_mobile":"img\/skyboxes\/skybox_sky1\/","format":"jpg","skybox":null}],"SONGS":[{"url":"mp3b\/tom_tom_genius_of_love_128.mp3","file":null,"uid":"genius_of_love","name":"tom_tom_genius_of_love.mp3","genre":"GROOVE"},{"url":"mp3b\/dj_deeon_shake_it_128.mp3","file":null,"uid":"shake_what","name":"dj_deeon_shake_it.mp3","genre":"G TECH"},{"url":"mp3b\/laid_back_white_horse_128.mp3","file":null,"uid":"white_horse","name":"ride_a_white_horse.mp3","genre":"ELECTRO"},{"url":"mp3b\/mark_pritchard_wind_it_up_128.mp3","file":null,"uid":"wind_it_up","name":"wind_it_up.mp3","genre":"BREAKBEAT"},{"url":"mp3b\/nandanavanam_128.mp3","file":null,"uid":"nandanavanam","name":"nandanavanam.mp3","genre":"BOLLYWOOD"},{"url":"mp3b\/alice_dj_better_off_alone_128.mp3","file":null,"uid":"better_off_alone","name":"better_off_alone.mp3","genre":"EURO DANCE"},{"url":"mp3b\/lil_windex_cleanin_up_128.mp3","file":null,"uid":"clean_up","name":"lil_windex_cleanin_up.mp3","genre":"CANADIAN RAP"},{"url":"mp3b\/scott_brown_elysium_128.mp3","file":null,"uid":"elysium","name":"scott_brown_elysium.mp3","genre":"HARD DANCE"},{"url":"mp3b\/gigi_dagostino_fly_with_you_128.mp3","file":null,"uid":"fly_with_you","name":"gigi_d_fly_with_you.mp3","genre":"EURO DANCE"},{"url":"mp3b\/kaboom_in_the_name_of_128.mp3","file":null,"uid":"killing_in_the_name_of","name":"kabooming_in_the_name_of.mp3","genre":"ELECTRO METAL"},{"url":"mp3b\/ronnie_jones_video_games_128.mp3","file":null,"uid":"video_games","name":"ronnie_jones_video_games.mp3","genre":"FUNKY"},{"url":"mp3b\/do_me_like_you_wanna_128.mp3","file":null,"uid":"do_me","name":"do_me_like_you_wanna.mp3","genre":"GROOVE"},{"url":"mp3b\/jonwayne_andrew_128.mp3","file":null,"uid":"andrew","name":"jonwayne_andrew.mp3","genre":"EXPERIMENTAL"},{"url":"mp3b\/mr_oizo_electro_non_stop_shit_128.mp3","file":null,"uid":"electro_non_stop","name":"oizo_electro_non_stop.mp3","genre":"BREAKBEAT"}],"SCENES":[{"name":"White","uid":"scene_white","bg_solid":"0xb6af93","bg_skybox":null,"bg_grad":null,"grid":"0x333333"},{"name":"Black","uid":"scene_black","bg_solid":"0x15250d","grid":"0x4b9925","bg_skybox":null,"bg_grad":null},{"name":"Orange","uid":"scene_orange","bg_solid":"0xffa800","grid":"0xfff94e","bg_skybox":null,"bg_grad":null},{"name":"Grad01","uid":"scene_grad01","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad01","grid":"0x111111"},{"name":"Grad02","uid":"scene_grad02","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad02","grid":"0x00ff00"},{"name":"Grad03","uid":"scene_grad03","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad03","grid":"0x0b0704"},{"name":"Grad04","uid":"scene_grad04","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad04","grid":"0x333333"},{"name":"Grad05","uid":"scene_grad05","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad05","grid":"0xd1e080"},{"name":"Grad06","uid":"scene_grad06","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad06","grid":"0x0a0a0a"},{"name":"Grad07","uid":"scene_grad07","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad07","grid":"0x0a0a0a"},{"name":"Grad08","uid":"scene_grad08","bg_solid":null,"bg_skybox":null,"bg_grad":"scene_grad08","grid":"0xfe52f4"},{"name":"Skybox01","uid":"scene_skybox01","bg_solid":null,"bg_skybox":"skybox_space1","bg_grad":null,"grid":"0xcccccc"},{"name":"Skybox02","uid":"scene_skybox02","bg_solid":null,"bg_skybox":"skybox_space2","bg_grad":null,"grid":"0xbbbbbb"},{"name":"Skybox03","uid":"scene_skybox03","bg_solid":null,"bg_skybox":"skybox_space3","bg_grad":null,"grid":"0xbbbbbb"},{"name":"Skybox04","uid":"scene_skybox04","bg_solid":null,"bg_skybox":"skybox_space4","bg_grad":null,"grid":"0xbbbbbb"},{"name":"Skybox05","uid":"scene_sky01","bg_solid":null,"bg_skybox":"skybox_sky1","bg_grad":null,"grid":"0xeeeeee"}],"THUMBNAIL_SIZE_X":400,"THUMBNAIL_SIZE_Y":225,"SCENE_SETTINGS":{"bg_color":"0x111111","grid_color":"0xbbbbbb","campos":{"x":5,"y":1,"z":15,"tx":0,"ty":1.5,"tz":0},"size":8,"max_range":3,"grid_divisions":30,"hlight_intensity":1,"dlight_intensity":0.75,"dlightpos":{"x":3,"y":20,"z":6},"fog_distance":40,"plight_color":"0xfffce9","plight_intensity":0.75,"plight_distance":30,"plightpos":{"x":1,"y":7,"z":10}},"ADMIN_ENABLED":false,"USING_GEO":true,"CAMERA_POSITION_THUMBNAIL_SCENE":{"x":3,"y":1.5,"z":3,"tx":0,"ty":1,"tz":0},"CAMERA_POSITION_THUMBNAIL_SAVE":{"x":3,"y":1.5,"z":3,"tx":0,"ty":1,"tz":0},"GET_SOURCE":"url","NORMALIZED_HEIGHT_OF_MODELS":2,"CATEGORIES":["characters","objects","irl"],"SHOW_MODELS_BOUNDING_BOX":false,"AR_ENABLE_IOS":true,"AR_ENABLE_ANDROID":true,"SHADOWS_ON":false,"SHOW_SHARE_URL":true,"ALLOW_GUEST_SAVE":true,"MEMBERS_BUTTON_URL":"https:\/\/www.naughtyamerica.com\/","EXTERNAL_LINK_TYPE":"top","SHUFFLE_MODELS":true,"WINDOW_STATE":true,"FIRST_LOAD":true,"LOAD_COUNT":0,"MAX_MODELS":7,"AINDEX":null,"LOAD_LENGTH":0,"LOAD_PCT":0,"INITIAL_LOAD_COMPLETE":false,"SONG_INDEX":0,"IS_GRABBING_VIDEO_THUMBNAIL":false,"IS_EDITABLE":false,"GET_UID":null,"GET_OWNER":null,"GET_MODE":"view","FORCE_EDIT":false,"FADE_MS":150,"MODELS":[],"UMODELS":[null,null,null,null,null,null,null],"MYTHREE":null,"MYRENDER":null,"MYLOADER":null,"MYANIMATE":null,"MYSHARE":null,"MYINTERACT":null,"MYADMIN":null,"MYINTERACT3D":null,"MYAUDIO":null,"MYAR":null,"MYSCENES":null,"MYXR":null,"MYCAPTURE":null}
+{
+    "DUMMY_USERS_FOR_SAVING":
+    [
+        "Andrew",
+        "Nathan",
+        "Zoey",
+        "Alexander"
+    ],
+    "DEFAULT_SCENE":
+    {
+        "scene_uid": "scene_skybox03",
+        "song_uid": "genius_of_love",
+        "models":
+        [
+            {
+                "index": 0,
+                "uid": "pepe2d01",
+                "type": "gltf",
+                "kind": "animated",
+                "settings":
+                {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0,
+                    "ry": -0.6,
+                    "scale_gui": 0.85,
+                    "locked": false,
+                    "speed": 1
+                }
+            },
+            {
+                "index": 1,
+                "uid": "bruh1d01",
+                "type": "gltf",
+                "kind": "animated",
+                "settings":
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": -0.1,
+                    "ry": 0.66,
+                    "scale_gui": 0.7,
+                    "locked": false,
+                    "speed": 1
+                }
+            },
+            {
+                "index": 2,
+                "uid": "bobby1d02",
+                "type": "gltf",
+                "kind": "animated",
+                "settings":
+                {
+                    "x": -0.3,
+                    "y": 0,
+                    "z": -0.7,
+                    "ry": 0.25,
+                    "scale_gui": 0.9,
+                    "locked": false,
+                    "speed": 1.15
+                }
+            },
+            {
+                "index": 4,
+                "uid": "ackbar1d04",
+                "type": "gltf",
+                "kind": "animated",
+                "settings":
+                {
+                    "x": 0.3,
+                    "y": 0,
+                    "z": -0.8,
+                    "ry": -0.33,
+                    "scale_gui": 1,
+                    "locked": false,
+                    "speed": 1
+                }
+            }
+        ],
+        "camera_start":
+        {
+            "x": 0,
+            "y": 1.2,
+            "z": 3,
+            "tx": 0,
+            "ty": 0.85,
+            "tz": 0
+        }
+    },
+    "DEFAULT_CAM":
+    {
+        "x": -4,
+        "y": 4,
+        "z": 10,
+        "tx": 0,
+        "ty": 1,
+        "tz": 0
+    },
+    "SKYBOXES":
+    [
+        {
+            "uid": "skybox_space1",
+            "dir_desktop": "img/skyboxes/skybox_space1/",
+            "dir_mobile": "img/skyboxes_mobile/skybox_space1/",
+            "format": "png",
+            "skybox": null
+        },
+        {
+            "uid": "skybox_space2",
+            "dir_desktop": "img/skyboxes/skybox_space2/",
+            "dir_mobile": "img/skyboxes_mobile/skybox_space2/",
+            "format": "png",
+            "skybox": null
+        },
+        {
+            "uid": "skybox_space3",
+            "dir_desktop": "img/skyboxes/skybox_space3/",
+            "dir_mobile": "img/skyboxes_mobile/skybox_space3/",
+            "format": "png",
+            "skybox": null
+        },
+        {
+            "uid": "skybox_sky1",
+            "dir_desktop": "img/skyboxes/skybox_sky1/",
+            "dir_mobile": "img/skyboxes/skybox_sky1/",
+            "format": "jpg",
+            "skybox": null
+        }
+    ],
+    "SONGS":
+    [
+        {
+            "url": "mp3b/tom_tom_genius_of_love_128.mp3",
+            "file": null,
+            "uid": "genius_of_love",
+            "name": "tom_tom_genius_of_love.mp3",
+            "genre": "GROOVE"
+        },
+        {
+            "url": "mp3b/dj_deeon_shake_it_128.mp3",
+            "file": null,
+            "uid": "shake_what",
+            "name": "dj_deeon_shake_it.mp3",
+            "genre": "G TECH"
+        },
+        {
+            "url": "mp3b/laid_back_white_horse_128.mp3",
+            "file": null,
+            "uid": "white_horse",
+            "name": "ride_a_white_horse.mp3",
+            "genre": "ELECTRO"
+        },
+        {
+            "url": "mp3b/mark_pritchard_wind_it_up_128.mp3",
+            "file": null,
+            "uid": "wind_it_up",
+            "name": "wind_it_up.mp3",
+            "genre": "BREAKBEAT"
+        },
+        {
+            "url": "mp3b/nandanavanam_128.mp3",
+            "file": null,
+            "uid": "nandanavanam",
+            "name": "nandanavanam.mp3",
+            "genre": "BOLLYWOOD"
+        },
+        {
+            "url": "mp3b/alice_dj_better_off_alone_128.mp3",
+            "file": null,
+            "uid": "better_off_alone",
+            "name": "better_off_alone.mp3",
+            "genre": "EURO DANCE"
+        },
+        {
+            "url": "mp3b/lil_windex_cleanin_up_128.mp3",
+            "file": null,
+            "uid": "clean_up",
+            "name": "lil_windex_cleanin_up.mp3",
+            "genre": "CANADIAN RAP"
+        },
+        {
+            "url": "mp3b/scott_brown_elysium_128.mp3",
+            "file": null,
+            "uid": "elysium",
+            "name": "scott_brown_elysium.mp3",
+            "genre": "HARD DANCE"
+        },
+        {
+            "url": "mp3b/gigi_dagostino_fly_with_you_128.mp3",
+            "file": null,
+            "uid": "fly_with_you",
+            "name": "gigi_d_fly_with_you.mp3",
+            "genre": "EURO DANCE"
+        },
+        {
+            "url": "mp3b/kaboom_in_the_name_of_128.mp3",
+            "file": null,
+            "uid": "killing_in_the_name_of",
+            "name": "kabooming_in_the_name_of.mp3",
+            "genre": "ELECTRO METAL"
+        },
+        {
+            "url": "mp3b/ronnie_jones_video_games_128.mp3",
+            "file": null,
+            "uid": "video_games",
+            "name": "ronnie_jones_video_games.mp3",
+            "genre": "FUNKY"
+        },
+        {
+            "url": "mp3b/do_me_like_you_wanna_128.mp3",
+            "file": null,
+            "uid": "do_me",
+            "name": "do_me_like_you_wanna.mp3",
+            "genre": "GROOVE"
+        },
+        {
+            "url": "mp3b/jonwayne_andrew_128.mp3",
+            "file": null,
+            "uid": "andrew",
+            "name": "jonwayne_andrew.mp3",
+            "genre": "EXPERIMENTAL"
+        },
+        {
+            "url": "mp3b/mr_oizo_electro_non_stop_shit_128.mp3",
+            "file": null,
+            "uid": "electro_non_stop",
+            "name": "oizo_electro_non_stop.mp3",
+            "genre": "BREAKBEAT"
+        }
+    ],
+    "SCENES":
+    [
+        {
+            "name": "White",
+            "uid": "scene_white",
+            "bg_solid": "0xb6af93",
+            "bg_skybox": null,
+            "bg_grad": null,
+            "grid": "0x333333"
+        },
+        {
+            "name": "Black",
+            "uid": "scene_black",
+            "bg_solid": "0x15250d",
+            "grid": "0x4b9925",
+            "bg_skybox": null,
+            "bg_grad": null
+        },
+        {
+            "name": "Orange",
+            "uid": "scene_orange",
+            "bg_solid": "0xffa800",
+            "grid": "0xfff94e",
+            "bg_skybox": null,
+            "bg_grad": null
+        },
+        {
+            "name": "Grad01",
+            "uid": "scene_grad01",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad01",
+            "grid": "0x111111"
+        },
+        {
+            "name": "Grad02",
+            "uid": "scene_grad02",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad02",
+            "grid": "0x00ff00"
+        },
+        {
+            "name": "Grad03",
+            "uid": "scene_grad03",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad03",
+            "grid": "0x0b0704"
+        },
+        {
+            "name": "Grad04",
+            "uid": "scene_grad04",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad04",
+            "grid": "0x333333"
+        },
+        {
+            "name": "Grad05",
+            "uid": "scene_grad05",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad05",
+            "grid": "0xd1e080"
+        },
+        {
+            "name": "Grad06",
+            "uid": "scene_grad06",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad06",
+            "grid": "0x0a0a0a"
+        },
+        {
+            "name": "Grad07",
+            "uid": "scene_grad07",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad07",
+            "grid": "0x0a0a0a"
+        },
+        {
+            "name": "Grad08",
+            "uid": "scene_grad08",
+            "bg_solid": null,
+            "bg_skybox": null,
+            "bg_grad": "scene_grad08",
+            "grid": "0xfe52f4"
+        },
+        {
+            "name": "Skybox01",
+            "uid": "scene_skybox01",
+            "bg_solid": null,
+            "bg_skybox": "skybox_space1",
+            "bg_grad": null,
+            "grid": "0xcccccc"
+        },
+        {
+            "name": "Skybox02",
+            "uid": "scene_skybox02",
+            "bg_solid": null,
+            "bg_skybox": "skybox_space2",
+            "bg_grad": null,
+            "grid": "0xbbbbbb"
+        },
+        {
+            "name": "Skybox03",
+            "uid": "scene_skybox03",
+            "bg_solid": null,
+            "bg_skybox": "skybox_space3",
+            "bg_grad": null,
+            "grid": "0xbbbbbb"
+        },
+        {
+            "name": "Skybox04",
+            "uid": "scene_skybox04",
+            "bg_solid": null,
+            "bg_skybox": "skybox_space4",
+            "bg_grad": null,
+            "grid": "0xbbbbbb"
+        },
+        {
+            "name": "Skybox05",
+            "uid": "scene_sky01",
+            "bg_solid": null,
+            "bg_skybox": "skybox_sky1",
+            "bg_grad": null,
+            "grid": "0xeeeeee"
+        }
+    ],
+    "THUMBNAIL_SIZE_X": 400,
+    "THUMBNAIL_SIZE_Y": 225,
+    "SCENE_SETTINGS":
+    {
+        "bg_color": "0x111111",
+        "grid_color": "0xbbbbbb",
+        "campos":
+        {
+            "x": 5,
+            "y": 1,
+            "z": 15,
+            "tx": 0,
+            "ty": 1.5,
+            "tz": 0
+        },
+        "size": 8,
+        "max_range": 3,
+        "grid_divisions": 30,
+        "hlight_intensity": 1,
+        "dlight_intensity": 0.75,
+        "dlightpos":
+        {
+            "x": 3,
+            "y": 20,
+            "z": 6
+        },
+        "fog_distance": 40,
+        "plight_color": "0xfffce9",
+        "plight_intensity": 0.75,
+        "plight_distance": 30,
+        "plightpos":
+        {
+            "x": 1,
+            "y": 7,
+            "z": 10
+        }
+    },
+    "ADMIN_ENABLED": false,
+    "USING_GEO": true,
+    "CAMERA_POSITION_THUMBNAIL_SCENE":
+    {
+        "x": 3,
+        "y": 1.5,
+        "z": 3,
+        "tx": 0,
+        "ty": 1,
+        "tz": 0
+    },
+    "CAMERA_POSITION_THUMBNAIL_SAVE":
+    {
+        "x": 3,
+        "y": 1.5,
+        "z": 3,
+        "tx": 0,
+        "ty": 1,
+        "tz": 0
+    },
+    "GET_SOURCE": "url",
+    "NORMALIZED_HEIGHT_OF_MODELS": 2,
+    "CATEGORIES":
+    [
+        "characters",
+        "objects",
+        "irl"
+    ],
+    "SHOW_MODELS_BOUNDING_BOX": false,
+    "AR_ENABLE_IOS": true,
+    "AR_ENABLE_ANDROID": true,
+    "SHADOWS_ON": false,
+    "SHOW_SHARE_URL": true,
+    "ALLOW_GUEST_SAVE": true,
+    "MEMBERS_BUTTON_URL": "https://www.naughtyamerica.com/",
+    "EXTERNAL_LINK_TYPE": "top",
+    "SHUFFLE_MODELS": true,
+    "WINDOW_STATE": true,
+    "FIRST_LOAD": true,
+    "LOAD_COUNT": 0,
+    "MAX_MODELS": 7,
+    "AINDEX": null,
+    "LOAD_LENGTH": 0,
+    "LOAD_PCT": 0,
+    "INITIAL_LOAD_COMPLETE": false,
+    "SONG_INDEX": 0,
+    "IS_GRABBING_VIDEO_THUMBNAIL": false,
+    "IS_EDITABLE": false,
+    "GET_UID": null,
+    "GET_OWNER": null,
+    "GET_MODE": "view",
+    "FORCE_EDIT": false,
+    "FADE_MS": 150,
+    "MODELS":
+    [],
+    "UMODELS":
+    [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "MYTHREE": null,
+    "MYRENDER": null,
+    "MYLOADER": null,
+    "MYANIMATE": null,
+    "MYSHARE": null,
+    "MYINTERACT": null,
+    "MYADMIN": null,
+    "MYINTERACT3D": null,
+    "MYAUDIO": null,
+    "MYAR": null,
+    "MYSCENES": null,
+    "MYXR": null,
+    "MYCAPTURE": null
+}
